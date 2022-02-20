@@ -1,0 +1,15 @@
+C:\Users\vlad\source\repos\andrenkov\Training2022\dotNet_6\Chapter 4\bin\Debug\net6.0\Chapter 4.exe
+C:\Users\vlad\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\bin\Debug\net6.0\Chapter 4.deps.json
+C:\Users\vlad\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\bin\Debug\net6.0\Chapter 4.runtimeconfig.json
+C:\Users\vlad\source\repos\andrenkov\Training2022\dotNet_6\Chapter 4\bin\Debug\net6.0\Chapter 4.dll
+C:\Users\vlad\source\repos\andrenkov\Training2022\dotNet_6\Chapter 4\bin\Debug\net6.0\Chapter 4.pdb
+C:\Users\vlad\source\repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.csproj.AssemblyReference.cache
+C:\Users\vlad\source\repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vlad\source\repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.AssemblyInfoInputs.cache
+C:\Users\vlad\source\repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.AssemblyInfo.cs
+C:\Users\vlad\source\repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.csproj.CoreCompileInputs.cache
+C:\Users\vlad\source\repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.dll
+C:\Users\vlad\source\repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\refint\Chapter 4.dll
+C:\Users\vlad\source\repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.pdb
+C:\Users\vlad\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.genruntimeconfig.cache
+C:\Users\vlad\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\ref\Chapter 4.dll
