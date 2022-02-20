@@ -75,44 +75,4 @@ WriteLine($"Hello, {Factorial(b)}!");
 #endregion
 
 #region Logging
-
-static int FibImpertive(int term)
-{
-    if (term == 1)
-        return 0;
-    if (term == 2)
-        return 1;
-    else
-    {
-        return FibImpertive (term-1) + FibImpertive (term-2);
-    }
-}
-
-static void RunFibImpertive()
-{
-    for (int i = 1; i <= 30; i++)
-    {
-        WriteLine("The {0} term of the Fibonaccii sequence is {1:N0}", arg0 : i, arg1 : FibImpertive(term : i));
-    }
-}
-
-//RunFibImpertive();
-
-static int FibFunctional(int term) =>
-    term switch
-    {
-        1 => 0,
-        2 => 1,
-        _ => FibImpertive(term - 1) + FibImpertive(term - 2)
-    };
-
-static void RunFibFunctional()
-{
-    for (int i = 1; i <= 30; i++)
-    {
-        WriteLine("The {0} term of the Fibonaccii sequence is {1:N0}", arg0: i, arg1: FibFunctional(term: i));
-    }
-}
-
-RunFibFunctional();
 #endregion
