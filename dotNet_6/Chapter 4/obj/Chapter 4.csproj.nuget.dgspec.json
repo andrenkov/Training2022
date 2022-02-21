@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\Chapter 4\\Chapter 4.csproj": {}
+    "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\Chapter 4\\Chapter 4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\Chapter 4\\Chapter 4.csproj": {
+    "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\Chapter 4\\Chapter 4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\Chapter 4\\Chapter 4.csproj",
+        "projectUniqueName": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\Chapter 4\\Chapter 4.csproj",
         "projectName": "Chapter 4",
-        "projectPath": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\Chapter 4\\Chapter 4.csproj",
-        "packagesPath": "C:\\Users\\vlad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\Chapter 4\\obj\\",
+        "projectPath": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\Chapter 4\\Chapter 4.csproj",
+        "packagesPath": "C:\\Users\\Vladimir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\Chapter 4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\vlad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Vladimir\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,6 +43,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

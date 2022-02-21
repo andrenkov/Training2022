@@ -1,4 +1,6 @@
 ﻿using static System.Console;
+using System.Diagnostics;
+using Microsoft.Extensions.Configuration;
 
 #region function 1
 /*
@@ -75,4 +77,43 @@ WriteLine($"Hello, {Factorial(b)}!");
 #endregion
 
 #region Logging
+
+#region 1 - simple log and tracer
+
+//Add new listener for qriting into a file
+//Write a tesxt file in the project folder
+//Trace.Listeners.Add(new TextWriterTraceListener(File.CreateText(Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.DesktopDirectory), "TracerLog.txt"))));
+
+//Need to Flush the buffered text writer for an immidiate writing into the File
+//Trace.AutoFlush = true;
+
+//Debug.WriteLine("From Debug - I am watching!");
+//Trace.WriteLine("From Trace - I am watching!");
+#endregion
+
+#region Microsoft.Extensions.Configuration
+
+//Add NuGet Microsoft.Extensions.Configuration
+ConfigurationBuilder builder =  new();
+
+//reference to the manually crated appsettings.json
+builder.SetBasePath(Directory.GetCurrentDirectory()).AddJsonFile("appsettings.json", optional: true, reloadOnChange: true);
+
+IConfigurationRoot configuration = builder.Build();
+
+TraceSwitch ts = new(
+    displayName : "PacktSwitch",
+    description : "This switch is set via the appsettings.json config");
+
+configuration.GetSection("PacktSwitch").Bind(ts);
+
+Trace.WriteLineIf(ts.TraceError, "Trace Error");
+Trace.WriteLineIf(ts.TraceWarning, "Trace Wanrning");
+Trace.WriteLineIf(ts.TraceInfo, "Trace Info");
+Trace.WriteLineIf(ts.TraceVerbose, "Trace verbose");
+
+
+
+#endregion
+
 #endregion
