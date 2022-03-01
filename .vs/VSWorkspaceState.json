@@ -2,7 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\dotNet_6",
-    "\\dotNet_6\\Chapter 4\\obj"
+    "\\dotNet_6\\Chapter 4\\obj",
+    "\\dotNet_6\\Chapter4_TestUnit"
   ],
   "SelectedNode": "\\dotNet_6\\dotNetCore_6_Book.sln",
   "PreviewInSolutionExplorer": false
