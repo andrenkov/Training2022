@@ -1,0 +1,12 @@
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 06\PacktLib\PacktLib\bin\Debug\net6.0\PacktLib.deps.json
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 06\PacktLib\PacktLib\bin\Debug\net6.0\PacktLib.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 06\PacktLib\PacktLib\bin\Debug\net6.0\PacktLib.pdb
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 06\PacktLib\PacktLib\obj\Debug\net6.0\PacktLib.csproj.AssemblyReference.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 06\PacktLib\PacktLib\obj\Debug\net6.0\PacktLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 06\PacktLib\PacktLib\obj\Debug\net6.0\PacktLib.AssemblyInfoInputs.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 06\PacktLib\PacktLib\obj\Debug\net6.0\PacktLib.AssemblyInfo.cs
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 06\PacktLib\PacktLib\obj\Debug\net6.0\PacktLib.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 06\PacktLib\PacktLib\obj\Debug\net6.0\PacktLib.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 06\PacktLib\PacktLib\obj\Debug\net6.0\refint\PacktLib.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 06\PacktLib\PacktLib\obj\Debug\net6.0\PacktLib.pdb
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 06\PacktLib\PacktLib\obj\Debug\net6.0\ref\PacktLib.dll
