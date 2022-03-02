@@ -3,7 +3,9 @@ C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\PeopleApp\bin\Deb
 C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\PeopleApp\bin\Debug\net6.0\PeopleApp.runtimeconfig.json
 C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\PeopleApp\bin\Debug\net6.0\PeopleApp.dll
 C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\PeopleApp\bin\Debug\net6.0\PeopleApp.pdb
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\PeopleApp\bin\Debug\net6.0\PackitLibModern.dll
 C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\PeopleApp\bin\Debug\net6.0\PacktLibrary.dll
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\PeopleApp\bin\Debug\net6.0\PackitLibModern.pdb
 C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\PeopleApp\bin\Debug\net6.0\PacktLibrary.pdb
 C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\PeopleApp\obj\Debug\net6.0\PeopleApp.csproj.AssemblyReference.cache
 C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\PeopleApp\obj\Debug\net6.0\PeopleApp.GeneratedMSBuildEditorConfig.editorconfig

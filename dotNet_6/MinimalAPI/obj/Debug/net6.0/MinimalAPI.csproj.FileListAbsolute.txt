@@ -1,0 +1,7 @@
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\MinimalAPI\obj\Debug\net6.0\MinimalAPI.csproj.AssemblyReference.cache
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\MinimalAPI\obj\Debug\net6.0\MinimalAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\MinimalAPI\obj\Debug\net6.0\MinimalAPI.AssemblyInfoInputs.cache
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\MinimalAPI\obj\Debug\net6.0\MinimalAPI.AssemblyInfo.cs
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\MinimalAPI\obj\Debug\net6.0\MinimalAPI.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\MinimalAPI\obj\Debug\net6.0\MinimalAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\MinimalAPI\obj\Debug\net6.0\MinimalAPI.MvcApplicationPartsAssemblyInfo.cache

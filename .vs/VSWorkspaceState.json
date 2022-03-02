@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\dotNet_6",
-    "\\dotNet_6\\Chapter4_TestUnit"
+    "\\dotNet_6\\Chapter 4",
+    "\\dotNet_6\\Chapter4_TestUnit",
+    "\\dotNet_6\\PeopleApp"
   ],
-  "SelectedNode": "\\dotNet_6\\dotNetCore_6_Book.sln",
+  "SelectedNode": "\\dotNet_6\\Chapter 4\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

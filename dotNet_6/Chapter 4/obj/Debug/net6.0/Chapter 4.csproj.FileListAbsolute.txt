@@ -13,22 +13,12 @@ C:\Users\vlad\source\repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\n
 C:\Users\vlad\source\repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.pdb
 C:\Users\vlad\source\repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.genruntimeconfig.cache
 C:\Users\vlad\source\repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\ref\Chapter 4.dll
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\bin\Debug\net6.0\appsettings.json
 C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\bin\Debug\net6.0\Chapter 4.exe
 C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\bin\Debug\net6.0\Chapter 4.deps.json
 C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\bin\Debug\net6.0\Chapter 4.runtimeconfig.json
 C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\bin\Debug\net6.0\Chapter 4.dll
 C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\bin\Debug\net6.0\Chapter 4.pdb
-C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.csproj.AssemblyReference.cache
-C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.AssemblyInfoInputs.cache
-C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.AssemblyInfo.cs
-C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.csproj.CoreCompileInputs.cache
-C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.dll
-C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\refint\Chapter 4.dll
-C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.pdb
-C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.genruntimeconfig.cache
-C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\ref\Chapter 4.dll
-C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\bin\Debug\net6.0\appsettings.json
 C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
 C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
 C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll
@@ -38,4 +28,14 @@ C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\bin\Deb
 C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.csproj.AssemblyReference.cache
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.AssemblyInfoInputs.cache
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.AssemblyInfo.cs
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.csproj.CoreCompileInputs.cache
 C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.csproj.CopyComplete
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.dll
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\refint\Chapter 4.dll
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.pdb
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\Chapter 4.genruntimeconfig.cache
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 4\obj\Debug\net6.0\ref\Chapter 4.dll

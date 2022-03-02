@@ -8,10 +8,16 @@
     ".NETCoreApp,Version=v6.0": {
       "PeopleApp/1.0.0": {
         "dependencies": {
+          "PackitLibModern": "1.0.0",
           "PacktLibrary": "1.0.0"
         },
         "runtime": {
           "PeopleApp.dll": {}
+        }
+      },
+      "PackitLibModern/1.0.0": {
+        "runtime": {
+          "PackitLibModern.dll": {}
         }
       },
       "PacktLibrary/1.0.0": {
@@ -23,6 +29,11 @@
   },
   "libraries": {
     "PeopleApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PackitLibModern/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

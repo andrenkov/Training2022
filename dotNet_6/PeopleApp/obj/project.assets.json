@@ -2,6 +2,16 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "PackitLibModern/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/PackitLibModern.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PackitLibModern.dll": {}
+        }
+      },
       "PacktLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -15,6 +25,11 @@
     }
   },
   "libraries": {
+    "PackitLibModern/1.0.0": {
+      "type": "project",
+      "path": "../PackitLibModern/PackitLibModern.csproj",
+      "msbuildProject": "../PackitLibModern/PackitLibModern.csproj"
+    },
     "PacktLibrary/1.0.0": {
       "type": "project",
       "path": "../PacktLibrary/PacktLibrary.csproj",
@@ -23,6 +38,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "PackitLibModern >= 1.0.0",
       "PacktLibrary >= 1.0.0"
     ]
   },
@@ -58,6 +74,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PackitLibModern\\PackitLibModern.csproj": {
+              "projectPath": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PackitLibModern\\PackitLibModern.csproj"
+            },
             "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PacktLibrary\\PacktLibrary.csproj": {
               "projectPath": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PacktLibrary\\PacktLibrary.csproj"
             }
