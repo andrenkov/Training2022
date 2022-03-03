@@ -1,5 +1,9 @@
 ﻿using static System.Console;
 
+/// <copyright>
+/// Copyright (s) 2022 Russol
+/// </copyright>
+
 namespace PacktLib
 {
     /// <summary>
@@ -88,5 +92,102 @@ namespace PacktLib
 
         #endregion
 
+        }
+
+    #region new interface to compare objects
+    public class PersonCompare : IComparer<Person>
+    {
+        public int Compare(Person? x, Person? y)
+        {
+            if (x is null || y is null)
+            {
+                return 0;
+            }
+            //compare names lengths
+            int result = x.Name.Length.CompareTo(y.Name.Length);
+            //if they are equal
+            if (result == 0)
+            {
+                //compare by the Names
+                return x.Name.CompareTo(y.Name);//use ICopareTo of a String
+            }
+            else//otherwise, compare by lenght
+            { 
+                return result;
+            }
+        }
     }
+    #endregion
+
+    #region methods overwriting
+    public class Employee : Person
+    {
+        DateTime? HiredDate;
+        /// <summary>
+        /// "new" allows overwrite the WriteToConsole() of the base class
+        /// </summary>
+        //public new void WriteToConsole()
+        //{
+        //    WriteLine($"{Name} was born on a {DateOfBirth:ddd} hired on {HiredDate}");
+        //}
+        /// <summary>
+        /// "override" another way to overwrite the WriteToConsole() of the base class
+        /// Error: cannot override inherited member 'Person.WriteToConsole()' because it is not marked virtual, abstract, or override
+
+        /// </summary>
+        //public override void WriteToConsole()
+        //{
+        //    WriteLine($"{Name} was born on a {DateOfBirth:ddd} hired on {HiredDate}");
+        //}
+    }
+    #endregion
+
+    #region Abstract and Sealed classes
+    /// <summary>
+    /// Old way of what now is Interface
+    /// </summary>
+    /// 
+    public abstract class PersonAbst
+    {
+        /// <summary>
+        /// must be implemented in the derived type
+        /// </summary>
+        public abstract void Gammy();
+    }
+
+    public class PersonFull : PersonAbst
+    {
+        public override void Gammy()
+        {
+            throw new NotImplementedException();
+        }
+    }
+    /// <summary>
+    /// Cannot be overwriding in the child class
+    /// </summary>
+    public  sealed class PersonSealed : PersonAbst
+    {
+        public override void Gammy()
+        {
+            throw new NotImplementedException();
+        }
+    }
+    #endregion
+
+    #region Exheriting and extending .Net type
+    public class PersonException : Exception
+    {
+        /// <summary>
+        /// Unlike other methods, constructors aren't enhereted. Must be declared and call base constructor(s).
+        /// </summary>
+        //default constructor called base class create
+        public PersonException() : base() { }
+
+        //another constructor called base class create
+        public PersonException(string msg) : base(msg) { }
+        //another constructor called base class create
+        public PersonException(string msg, Exception innerEx) : base(msg, innerEx) { }
+
+    }
+    #endregion
 }

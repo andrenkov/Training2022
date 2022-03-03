@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PacktLib</name>
+    </assembly>
+    <members>
+        <member name="T:PacktLib.DvdPlayer">
+            <summary>
+            This class is to implement the inteface from IPlayable.cs
+            Implicit implementation are most common. 
+            Explicit emplementations are used if a type must have miltiple methods with teh same name of signature
+            </summary>
+        </member>
+        <member name="T:PacktLib.Person">
+            <summary>
+            Methods and Inner methods
+            </summary>
+        </member>
+        <member name="T:PacktLib.PersonAbst">
+            <summary>
+            Old way of what now is Interface
+            </summary>
+            
+        </member>
+        <member name="M:PacktLib.PersonAbst.Gammy">
+            <summary>
+            must be implemented in the derived type
+            </summary>
+        </member>
+        <member name="T:PacktLib.PersonSealed">
+            <summary>
+            Cannot be overwriding in the child class
+            </summary>
+        </member>
+        <member name="M:PacktLib.PersonException.#ctor">
+            <summary>
+            Unlike other methods, constructors aren't enhereted. Must be declared and call base constructor(s).
+            </summary>
+        </member>
+    </members>
+</doc>

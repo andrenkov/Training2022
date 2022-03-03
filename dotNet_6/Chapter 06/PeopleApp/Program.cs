@@ -96,3 +96,10 @@ int key = 3;
 WriteLine($"{key} key is {lookupIntStr[key]}");
 */
 #endregion
+
+#region Interfaces and enheritence
+/// <summary>
+/// custom exception
+/// </summary>
+throw new PersonException("Person's exception");
+#endregion

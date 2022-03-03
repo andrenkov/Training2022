@@ -5,6 +5,7 @@ C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 06\People
 C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 06\PeopleApp\bin\Debug\net6.0\PeopleApp.pdb
 C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 06\PeopleApp\bin\Debug\net6.0\PacktLib.dll
 C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 06\PeopleApp\bin\Debug\net6.0\PacktLib.pdb
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 06\PeopleApp\bin\Debug\net6.0\PacktLib.xml
 C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 06\PeopleApp\obj\Debug\net6.0\PeopleApp.csproj.AssemblyReference.cache
 C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 06\PeopleApp\obj\Debug\net6.0\PeopleApp.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 06\PeopleApp\obj\Debug\net6.0\PeopleApp.AssemblyInfoInputs.cache
