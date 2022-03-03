@@ -1,8 +1,27 @@
 {
   "version": 2,
-  "dgSpecHash": "0NvSpTs1O1JVX8sKkOu5bXtb41LRzP4jy7/3GafBh0SNnjFhdztqxhKbIYiqSGwvdny+EqCQLHvAEBlet84XIQ==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PeopleApp\\PeopleApp.csproj",
+  "dgSpecHash": "RgVJIvQBGSJ4C2MQsd6BEPsYz6Sd1p+lY4KwKucctp0uy4U5FgtygcTMFAwf2yBSl8zuE+lSDtYthKTNP7pdgA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PeopleApp\\PeopleApp.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PacktLibrary\\PacktLibrary.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PacktLibrary\\PacktLibrary.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PackitLibModern\\PackitLibModern.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PackitLibModern\\PackitLibModern.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Chapter4_TestUnit\Chapter4_CalculatoLib.csproj" />
+    <ProjectReference Include="..\Chapter4_TestUnit\Chapter 04_CalculatoLib.csproj" />
   </ItemGroup>
 
 </Project>

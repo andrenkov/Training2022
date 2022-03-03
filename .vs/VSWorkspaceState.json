@@ -2,10 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\dotNet_6",
-    "\\dotNet_6\\Chapter 4",
-    "\\dotNet_6\\Chapter4_TestUnit",
-    "\\dotNet_6\\PeopleApp"
+    "\\dotNet_6\\Chapter 06",
+    "\\dotNet_6\\Chapter 06\\PacktLib",
+    "\\dotNet_6\\Chapter 06\\PeopleApp"
   ],
-  "SelectedNode": "\\dotNet_6\\Chapter 4\\Program.cs",
+  "SelectedNode": "\\dotNet_6\\Chapter 06",
   "PreviewInSolutionExplorer": false
 }
