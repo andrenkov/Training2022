@@ -1,0 +1,15 @@
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 07\AssembliesAndNamespaces\BasicConsoleApp\bin\Debug\net6.0\BasicConsoleApp.exe
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 07\AssembliesAndNamespaces\BasicConsoleApp\bin\Debug\net6.0\BasicConsoleApp.deps.json
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 07\AssembliesAndNamespaces\BasicConsoleApp\bin\Debug\net6.0\BasicConsoleApp.runtimeconfig.json
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 07\AssembliesAndNamespaces\BasicConsoleApp\bin\Debug\net6.0\BasicConsoleApp.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 07\AssembliesAndNamespaces\BasicConsoleApp\bin\Debug\net6.0\BasicConsoleApp.pdb
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 07\AssembliesAndNamespaces\BasicConsoleApp\obj\Debug\net6.0\BasicConsoleApp.csproj.AssemblyReference.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 07\AssembliesAndNamespaces\BasicConsoleApp\obj\Debug\net6.0\BasicConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 07\AssembliesAndNamespaces\BasicConsoleApp\obj\Debug\net6.0\BasicConsoleApp.AssemblyInfoInputs.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 07\AssembliesAndNamespaces\BasicConsoleApp\obj\Debug\net6.0\BasicConsoleApp.AssemblyInfo.cs
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 07\AssembliesAndNamespaces\BasicConsoleApp\obj\Debug\net6.0\BasicConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 07\AssembliesAndNamespaces\BasicConsoleApp\obj\Debug\net6.0\BasicConsoleApp.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 07\AssembliesAndNamespaces\BasicConsoleApp\obj\Debug\net6.0\refint\BasicConsoleApp.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 07\AssembliesAndNamespaces\BasicConsoleApp\obj\Debug\net6.0\BasicConsoleApp.pdb
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 07\AssembliesAndNamespaces\BasicConsoleApp\obj\Debug\net6.0\BasicConsoleApp.genruntimeconfig.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 07\AssembliesAndNamespaces\BasicConsoleApp\obj\Debug\net6.0\ref\BasicConsoleApp.dll

@@ -1,0 +1,2 @@
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 07\AssembliesAndNamespaces\BasicConsoleApp\bin\Release\net6.0\win10-x64\publish\BasicConsoleApp.pdb
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 07\AssembliesAndNamespaces\BasicConsoleApp\bin\Release\net6.0\win10-x64\publish\BasicConsoleApp.exe
