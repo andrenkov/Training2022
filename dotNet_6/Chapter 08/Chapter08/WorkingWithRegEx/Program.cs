@@ -1,6 +1,12 @@
 ﻿//using System.Text.RegularExpressions;
 using static System.Console;
 using System.Collections.Immutable;
+using System.Net;
+using System.Net.NetworkInformation;
+using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.Processing;
+//using SixLabors.ImageSharp.Web; to install for working with images on Web
+using System.Globalization;
 
 #region Regex
 
@@ -53,15 +59,15 @@ using System.Collections.Immutable;
 #region Lists
 //WorkingWithLists();
 
-static void Output(string title, IEnumerable<string> collection)
-{
-    WriteLine(title);
-    foreach (var item in collection)
-    {
-        WriteLine($"  {item}");
-    }
+//static void Output(string title, IEnumerable<string> collection)
+//{
+//    WriteLine(title);
+//    foreach (var item in collection)
+//    {
+//        WriteLine($"  {item}");
+//    }
 
-}
+//}
 
 //static void WorkingWithLists()
 //{
@@ -141,15 +147,112 @@ SortedSet<string> set = new();
 #region Immutable Collections
 //Collections where its members cannot change. You cannot add or remove items
 
-List<string> cities = new();
-cities.Add("moscow");
-cities.Add("kiev");
-cities.Add("sochi");
-cities.Add("mvkz");
+//List<string> cities = new();
+//cities.Add("moscow");
+//cities.Add("kiev");
+//cities.Add("sochi");
+//cities.Add("mvkz");
 
-ImmutableList<string> immutableCities = cities.ToImmutableList();
-ImmutableList<string> newList = immutableCities.Add("Rio");//this is how you  can add an item into ImmutableList
+//ImmutableList<string> immutableCities = cities.ToImmutableList();
+//ImmutableList<string> newList = immutableCities.Add("Rio");//this is how you  can add an item into ImmutableList
 
 #endregion
+
+#endregion
+
+#region Network
+
+//Write("Enter website address:");
+//string? url = ReadLine();
+
+//Uri uri = new(string.IsNullOrEmpty(url) ? "https://google.ca" : url);
+
+//WriteLine($"Url : {url}");
+//WriteLine($"Schema : {uri.Scheme}");
+//WriteLine($"Port : {uri.Port}");
+//WriteLine($"Query : {uri.Query}");
+
+//try
+//{
+//    Ping ping = new Ping();
+//    PingReply pingReply = ping.Send(uri.Host);
+
+//    WriteLine($"{uri.Host} was pinged : {pingReply.Status}");
+//}
+//catch (Exception ex)
+//{
+//    WriteLine($"Exception : {ex.Message}");
+//}
+
+
+#endregion
+
+#region Reflection and attribute
+//NA
+#endregion
+
+#region Images
+
+////string imageFolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Desktop), "images");
+//string imageFolder = Path.Combine(Environment.CurrentDirectory, "images");
+
+//IEnumerable<string> images = Directory.EnumerateFiles(imageFolder);
+//foreach (string imagePath in images)
+//{
+//    string thumbnailPath = Path.Combine(Environment.CurrentDirectory, "images", Path.GetFileNameWithoutExtension(imagePath) + "thumbnail" + Path.GetExtension(imagePath));
+//    using (Image image = Image.Load(imagePath))
+//    {
+//        image.Mutate(x => x.Resize(image.Width / 10, image.Height / 10));
+//        image.Mutate( x => x.Grayscale());
+//        image.Save(thumbnailPath);
+//    }
+//}
+
+//WriteLine("completed");
+
+#endregion
+
+#region Globalization and Localization
+
+//CultureInfo globalization = CultureInfo.CurrentCulture;
+//CultureInfo localization = CultureInfo.CurrentUICulture;
+
+//WriteLine("The current globalization culture is {0} : {1}", globalization.Name, globalization.DisplayName);
+//WriteLine("The current localization culture is {0} : {1}", localization.Name, localization.DisplayName);
+
+//WriteLine();
+
+//WriteLine("en-US : English (United States)");
+//WriteLine("da-DK : Danish (Denmark)");
+//WriteLine("fr-CA : French (Canada)");
+
+//WriteLine("Enter an ISO culture code :");
+//string? newCulture = ReadLine();
+
+//if (!string.IsNullOrEmpty(newCulture))
+//{ 
+//    CultureInfo ci = new CultureInfo(newCulture);
+//    //change the culture
+//    CultureInfo.CurrentCulture = ci;
+//    CultureInfo.CurrentUICulture = ci;
+//}
+
+//WriteLine();
+
+//WriteLine("Enter your Name:");
+//string? name = ReadLine();
+
+//WriteLine("Enter your Dob:");
+//string? dob = ReadLine();
+
+//WriteLine("Enter your salary :");
+//string? salary = ReadLine();
+
+//DateTime date = DateTime.Parse(dob);
+//int minutes = (int)DateTime.Today.Subtract(date).TotalMinutes;
+//decimal earnes = decimal.Parse(salary);
+
+//WriteLine("{0} was born on a {1:dddd}, is {2:N0} minutes old, and earnes {3:C}", name, date, minutes, earnes);
+
 
 #endregion

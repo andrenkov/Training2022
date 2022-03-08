@@ -13,3 +13,5 @@ C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 08\Chapte
 C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 08\Chapter08\WorkingWithRegEx\obj\Debug\net6.0\WorkingWithRegEx.pdb
 C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 08\Chapter08\WorkingWithRegEx\obj\Debug\net6.0\WorkingWithRegEx.genruntimeconfig.cache
 C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 08\Chapter08\WorkingWithRegEx\obj\Debug\net6.0\ref\WorkingWithRegEx.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 08\Chapter08\WorkingWithRegEx\bin\Debug\net6.0\SixLabors.ImageSharp.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 08\Chapter08\WorkingWithRegEx\obj\Debug\net6.0\WorkingWithRegEx.csproj.CopyComplete
