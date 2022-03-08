@@ -145,6 +145,7 @@ List<string> cities = new();
 cities.Add("moscow");
 cities.Add("kiev");
 cities.Add("sochi");
+cities.Add("mvkz");
 
 ImmutableList<string> immutableCities = cities.ToImmutableList();
 ImmutableList<string> newList = immutableCities.Add("Rio");//this is how you  can add an item into ImmutableList
