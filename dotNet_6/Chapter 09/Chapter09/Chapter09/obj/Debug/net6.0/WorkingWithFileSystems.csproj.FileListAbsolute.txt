@@ -1,0 +1,17 @@
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 09\Chapter09\Chapter09\bin\Debug\net6.0\WorkingWithFileSystems.exe
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 09\Chapter09\Chapter09\bin\Debug\net6.0\WorkingWithFileSystems.deps.json
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 09\Chapter09\Chapter09\bin\Debug\net6.0\WorkingWithFileSystems.runtimeconfig.json
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 09\Chapter09\Chapter09\bin\Debug\net6.0\WorkingWithFileSystems.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 09\Chapter09\Chapter09\bin\Debug\net6.0\WorkingWithFileSystems.pdb
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 09\Chapter09\Chapter09\obj\Debug\net6.0\WorkingWithFileSystems.csproj.AssemblyReference.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 09\Chapter09\Chapter09\obj\Debug\net6.0\WorkingWithFileSystems.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 09\Chapter09\Chapter09\obj\Debug\net6.0\WorkingWithFileSystems.AssemblyInfoInputs.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 09\Chapter09\Chapter09\obj\Debug\net6.0\WorkingWithFileSystems.AssemblyInfo.cs
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 09\Chapter09\Chapter09\obj\Debug\net6.0\WorkingWithFileSystems.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 09\Chapter09\Chapter09\obj\Debug\net6.0\WorkingWithFileSystems.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 09\Chapter09\Chapter09\obj\Debug\net6.0\refint\WorkingWithFileSystems.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 09\Chapter09\Chapter09\obj\Debug\net6.0\WorkingWithFileSystems.pdb
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 09\Chapter09\Chapter09\obj\Debug\net6.0\WorkingWithFileSystems.genruntimeconfig.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 09\Chapter09\Chapter09\obj\Debug\net6.0\ref\WorkingWithFileSystems.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 09\Chapter09\Chapter09\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 09\Chapter09\Chapter09\obj\Debug\net6.0\WorkingWithFileSystems.csproj.CopyComplete

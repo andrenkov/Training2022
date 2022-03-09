@@ -2,10 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\dotNet_6",
-    "\\dotNet_6\\Chapter 06",
-    "\\dotNet_6\\Chapter 06\\PacktLib",
-    "\\dotNet_6\\Chapter 06\\PeopleApp"
+    "\\dotNet_6\\Chapter 08",
+    "\\dotNet_6\\Chapter 08\\Chapter08",
+    "\\dotNet_6\\Chapter 08\\Chapter08\\WorkingWithRegEx",
+    "\\dotNet_6\\Chapter 09",
+    "\\dotNet_6\\Chapter 09\\Chapter09",
+    "\\dotNet_6\\Chapter 09\\Chapter09\\Chapter09",
+    "\\dotNet_6\\Chapter 10",
+    "\\dotNet_6\\Chapter 10\\Chapter10_EF"
   ],
-  "SelectedNode": "\\dotNet_6\\Chapter 06",
+  "SelectedNode": "\\dotNet_6\\Chapter 10\\Chapter10_EF",
   "PreviewInSolutionExplorer": false
 }
