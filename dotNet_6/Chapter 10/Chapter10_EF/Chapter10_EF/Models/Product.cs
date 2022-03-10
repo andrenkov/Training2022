@@ -1,11 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace Chapter10_EF.Models
 {
     public partial class Product
     {
+        [Key]
         public int ProductId { get; set; }
+        [Required]
+        [StringLength(40)]
         public string ProductName { get; set; } = null!;
         public int? SupplierId { get; set; }
         public int? CategoryId { get; set; }

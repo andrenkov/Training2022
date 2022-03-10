@@ -56,3 +56,10 @@ C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 10\Chapte
 C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 10\Chapter10_EF\Chapter10_EF\obj\Debug\net6.0\Chapter10_EF.pdb
 C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 10\Chapter10_EF\Chapter10_EF\obj\Debug\net6.0\Chapter10_EF.genruntimeconfig.cache
 C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 10\Chapter10_EF\Chapter10_EF\obj\Debug\net6.0\ref\Chapter10_EF.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 10\Chapter10_EF\Chapter10_EF\bin\Debug\net6.0\Microsoft.Extensions.Configuration.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 10\Chapter10_EF\Chapter10_EF\bin\Debug\net6.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 10\Chapter10_EF\Chapter10_EF\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 10\Chapter10_EF\Chapter10_EF\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 10\Chapter10_EF\Chapter10_EF\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 10\Chapter10_EF\Chapter10_EF\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 10\Chapter10_EF\Chapter10_EF\bin\Debug\net6.0\appsettings.json
