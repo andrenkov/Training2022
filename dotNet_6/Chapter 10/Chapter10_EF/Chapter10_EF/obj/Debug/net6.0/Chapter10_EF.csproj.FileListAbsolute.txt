@@ -63,3 +63,5 @@ C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 10\Chapte
 C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 10\Chapter10_EF\Chapter10_EF\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 10\Chapter10_EF\Chapter10_EF\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 10\Chapter10_EF\Chapter10_EF\bin\Debug\net6.0\appsettings.json
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 10\Chapter10_EF\Chapter10_EF\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 10\Chapter10_EF\Chapter10_EF\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll

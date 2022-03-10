@@ -40,6 +40,8 @@ namespace EntFrame.Shared
             {
                 optionsBuilder.UseSqlServer(conn);
             }
+
+            optionsBuilder.UseLazyLoadingProxies();// - gives the open connection error unless you add MultipleActiveResultSets=true into the conn string
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -72,6 +74,10 @@ namespace EntFrame.Shared
 
                 entity.Property(e => e.Region).HasMaxLength(15);
             });
+
+            //add a Global Filter t exlude all Discontinued products
+            modelBuilder.Entity<Product>().HasQueryFilter(p => !p.Discontinued);
+
 
             OnModelCreatingPartial(modelBuilder);
         }
