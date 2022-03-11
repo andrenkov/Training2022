@@ -2,6 +2,8 @@
 using Microsoft.EntityFrameworkCore.SqlServer.Infrastructure.Internal;
 using Microsoft.Extensions.Configuration;
 using static System.Console;
+using Microsoft.Data.Sqlite;
+using Microsoft.EntityFrameworkCore.Design;
 
 namespace StudentAndCourses.Models
 {
@@ -10,29 +12,41 @@ namespace StudentAndCourses.Models
         public DbSet<Student>? Students { get; set; }
         public DbSet<Course>? Courses { get; set; }
 
-        //private readonly IConfiguration Configuration;
-        public string conn;
+        public Academy()
+        {
+        }
 
         public Academy(DbContextOptions<Academy> options)
             : base(options)
         {
-
-            SqlServerOptionsExtension? sqlServerOptionsExtension = options.FindExtension<SqlServerOptionsExtension>();
-            if (sqlServerOptionsExtension != null)
-            {
-                conn = sqlServerOptionsExtension.ConnectionString;
-            }
+            //options.UseSqlite("DataSource=academyp.db");
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            string path = Path.Combine(Environment.CurrentDirectory, "academy.db");
-            WriteLine($"Using {path} database file.");
+            //string path = Path.Combine(Environment.CurrentDirectory, "academy.db");
+            //WriteLine($"Using {path} database file.");
+
+            //if (!optionsBuilder.IsConfigured)
+            //{
+            //    IConfigurationRoot configuration = new ConfigurationBuilder()
+            //       .SetBasePath(Directory.GetCurrentDirectory())
+            //       .AddJsonFile("appsettings.json")
+            //       .Build();
+            //    var connectionString = configuration.GetConnectionString("AcademyDatabase");
+            //    optionsBuilder.UseSqlServer(connectionString);
+            //}
 
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer(conn);
+                IConfigurationRoot configuration = new ConfigurationBuilder()
+                   .SetBasePath(Directory.GetCurrentDirectory())
+                   .AddJsonFile("appsettings.json")
+                   .Build();
+                //var connectionString = configuration.GetConnectionString("AcademyDatabase");
+                optionsBuilder.UseSqlite("DataSource=academy.db");
             }
+
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

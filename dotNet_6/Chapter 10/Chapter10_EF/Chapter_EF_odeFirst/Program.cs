@@ -6,28 +6,32 @@ using Microsoft.Extensions.Logging;
 using StudentAndCourses;
 using StudentAndCourses.Models;
 using static System.Console;
+using Microsoft.Data.Sqlite;
+using Microsoft.EntityFrameworkCore.Design;
 
 
 Run();
 
 static async void Run()
 {
-    IConfiguration config = new ConfigurationBuilder()
-    .AddJsonFile("appsettings.json")
-    .Build();
+    //IConfiguration config = new ConfigurationBuilder()
+    //.AddJsonFile("appsettings.json")
+    //.Build();
+
+    //DbContextOptions<Academy> options = new DbContextOptionsBuilder<Academy>()
+    //.UseSqlServer(config.GetConnectionString("AcademyDatabase"))
+    //.Options;
 
     DbContextOptions<Academy> options = new DbContextOptionsBuilder<Academy>()
-    .UseSqlServer(config.GetConnectionString("AcademyDatabase"))
+    .UseSqlite("AcademyDatabase")
     .Options;
 
     WriteLine("Db options loaded");
 
     try
     {
-        using (Academy DbCont = new(options))
+        using (Academy DbCont = new())
         {
-            await DbCont.Database.EnsureCreatedAsync();
-
             WriteLine("Deleting Db");
             bool deleted = await DbCont.Database.EnsureDeletedAsync();
             WriteLine($"Db deleted : {deleted}");

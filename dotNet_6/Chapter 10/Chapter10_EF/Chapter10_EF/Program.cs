@@ -385,27 +385,27 @@ using Microsoft.EntityFrameworkCore.Storage;
 //}
 
 
-//ListProducts();
+ListProducts();
 
-//static void ListProducts()
-//{
-//    IConfiguration config = new ConfigurationBuilder()
-//    .AddJsonFile("appsettings.json")
-//    .Build();
+static void ListProducts()
+{
+    IConfiguration config = new ConfigurationBuilder()
+    .AddJsonFile("appsettings.json")
+    .Build();
 
-//    DbContextOptions<Northwind> options = new DbContextOptionsBuilder<Northwind>()
-//    .UseSqlServer(config.GetConnectionString("NorthWindDatabase"))
-//    .Options;
+    DbContextOptions<Northwind> options = new DbContextOptionsBuilder<Northwind>()
+    .UseSqlServer(config.GetConnectionString("NorthWindDatabase"))
+    .Options;
 
-//    using (Northwind DbCont = new(options))
-//    {
-//        WriteLine("{0,-3} {1,-35} {2,8} {3,5} {4}", "Id", "Product name", "Cost", "Stock", "Disc.");
-//        foreach (Product p in DbCont.Products.OrderByDescending(prod => prod.ProductId))
-//        {
-//            WriteLine("{0,000} {1,-35} {2,8:#$,##.00} {3,5} {4}", p.ProductId, p.ProductName, p.UnitPrice, p.UnitsInStock, p.Discontinued);
-//        }
-//    }
-//}
+    using (Northwind DbCont = new(options))
+    {
+        WriteLine("{0,-3} {1,-35} {2,8} {3,5} {4}", "Id", "Product name", "Cost", "Stock", "Disc.");
+        foreach (Product p in DbCont.Products.OrderByDescending(prod => prod.ProductId))
+        {
+            WriteLine("{0,000} {1,-35} {2,8:#$,##.00} {3,5} {4}", p.ProductId, p.ProductName, p.UnitPrice, p.UnitsInStock, p.Discontinued);
+        }
+    }
+}
 
 //bool EncreaseProdPrice(string productNameStartsWith, decimal amount)
 //{
