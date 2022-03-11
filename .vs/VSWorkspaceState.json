@@ -2,15 +2,13 @@
   "ExpandedNodes": [
     "",
     "\\dotNet_6",
-    "\\dotNet_6\\Chapter 08",
-    "\\dotNet_6\\Chapter 08\\Chapter08",
-    "\\dotNet_6\\Chapter 08\\Chapter08\\WorkingWithRegEx",
-    "\\dotNet_6\\Chapter 09",
-    "\\dotNet_6\\Chapter 09\\Chapter09",
-    "\\dotNet_6\\Chapter 09\\Chapter09\\Chapter09",
-    "\\dotNet_6\\Chapter 10",
-    "\\dotNet_6\\Chapter 10\\Chapter10_EF"
+    "\\dotNet_6\\Chapter 10\\Chapter10_EF",
+    "\\dotNet_6\\Chapter 10\\Chapter10_EF\\Chapter10_EF",
+    "\\dotNet_6\\Chapter 10\\Chapter10_EF\\Chapter10_EF\\Context",
+    "\\dotNet_6\\Chapter 10\\Chapter10_EF\\Chapter10_EF\\Models",
+    "\\dotNet_6\\Chapter 11 LinQ",
+    "\\dotNet_6\\Chapter 11 LinQ\\LinqWithObjects"
   ],
-  "SelectedNode": "\\dotNet_6\\Chapter 10\\Chapter10_EF",
+  "SelectedNode": "\\dotNet_6\\Chapter 11 LinQ",
   "PreviewInSolutionExplorer": false
 }

@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "AZTzxlIAklLTRm+p2XN1pecHbTpovbA5ZJTTP9FAjYZZFv9TuuPzrznW8YofR457w2k/HwLN1SOb0dxhhU2kww==",
-  "success": true,
+  "dgSpecHash": "XRGcZ7s2mAJjvSRx998AW5mM7aV9oS3g+7k3Gdt7Q0XRrG7Xd03PWxizivW1rZQtXOo0r6z9hmJE51SYvxHnIg==",
+  "success": false,
   "projectFilePath": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\CalcLibUnitTest\\CalcLibUnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vladimir\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
@@ -97,5 +97,15 @@
     "C:\\Users\\Vladimir\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
     "C:\\Users\\Vladimir\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\Chapter4_TestUnit\\Chapter 04_CalculatoLib.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\Chapter4_TestUnit\\Chapter 04_CalculatoLib.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

@@ -1670,16 +1670,6 @@
         "build": {
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
-      },
-      "Chapter4_CalculatoLib/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/Chapter4_CalculatoLib.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Chapter4_CalculatoLib.dll": {}
-        }
       }
     }
   },
@@ -5972,16 +5962,11 @@
         "xunit.runner.visualstudio.2.4.3.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
-    },
-    "Chapter4_CalculatoLib/1.0.0": {
-      "type": "project",
-      "path": "../Chapter4_TestUnit/Chapter4_CalculatoLib.csproj",
-      "msbuildProject": "../Chapter4_TestUnit/Chapter4_CalculatoLib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Chapter4_CalculatoLib >= 1.0.0",
+      "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\Chapter4_TestUnit\\Chapter 04_CalculatoLib.csproj",
       "Microsoft.NET.Test.Sdk >= 16.11.0",
       "coverlet.collector >= 3.1.0",
       "xunit >= 2.4.1",
@@ -6020,8 +6005,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\Chapter4_TestUnit\\Chapter4_CalculatoLib.csproj": {
-              "projectPath": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\Chapter4_TestUnit\\Chapter4_CalculatoLib.csproj"
+            "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\Chapter4_TestUnit\\Chapter 04_CalculatoLib.csproj": {
+              "projectPath": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\Chapter4_TestUnit\\Chapter 04_CalculatoLib.csproj"
             }
           }
         }
@@ -6072,8 +6057,19 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\Chapter4_TestUnit\\Chapter 04_CalculatoLib.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\Chapter4_TestUnit\\Chapter 04_CalculatoLib.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
