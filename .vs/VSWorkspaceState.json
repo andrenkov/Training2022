@@ -2,11 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\dotNet_6",
-    "\\dotNet_6\\Chapter 04",
-    "\\dotNet_6\\Chapter 12",
-    "\\dotNet_6\\Chapter 12\\MonitoringLib",
-    "\\dotNet_6\\Chapter 12\\MonitoringLib\\MonitoringLib"
+    "\\dotNet_6\\Chapter 06\\PeopleApp",
+    "\\dotNet_6\\Chapter 12\\WorkingWithTasks",
+    "\\dotNet_6\\Chapter 13"
   ],
-  "SelectedNode": "\\dotNet_6\\Chapter 12\\MonitoringLib\\Chapter12.sln",
+  "SelectedNode": "\\dotNet_6\\Chapter 13",
   "PreviewInSolutionExplorer": false
 }
