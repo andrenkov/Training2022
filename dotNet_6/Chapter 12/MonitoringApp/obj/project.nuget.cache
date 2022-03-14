@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4KAE+AL1/6TENdtEW2h8qtCIL+OWPrjAwQKn7W4AikJbtpJVWnKGqtxr6L5JSJVXPqr3TnuMER6sN0kp/KvMFw==",
+  "dgSpecHash": "XXPKpGR+5N0pfBwb0p7v0TycQvAyG2CfotlwkvDBSra9cqBISr9ECq4iFVFyEoru+8GN1Ws7mU3y7ts1yVDDTA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\Chapter 12\\MonitoringApp\\MonitoringApp.csproj",
+  "projectFilePath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\Chapter 12\\MonitoringApp\\MonitoringApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

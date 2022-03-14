@@ -1,0 +1,15 @@
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\AsynchConsole\obj\Debug\net6.0\AsynchConsole.csproj.AssemblyReference.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\AsynchConsole\obj\Debug\net6.0\AsynchConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\AsynchConsole\obj\Debug\net6.0\AsynchConsole.AssemblyInfoInputs.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\AsynchConsole\obj\Debug\net6.0\AsynchConsole.AssemblyInfo.cs
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\AsynchConsole\obj\Debug\net6.0\AsynchConsole.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\AsynchConsole\bin\Debug\net6.0\AsynchConsole.exe
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\AsynchConsole\bin\Debug\net6.0\AsynchConsole.deps.json
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\AsynchConsole\bin\Debug\net6.0\AsynchConsole.runtimeconfig.json
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\AsynchConsole\bin\Debug\net6.0\AsynchConsole.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\AsynchConsole\bin\Debug\net6.0\AsynchConsole.pdb
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\AsynchConsole\obj\Debug\net6.0\AsynchConsole.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\AsynchConsole\obj\Debug\net6.0\refint\AsynchConsole.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\AsynchConsole\obj\Debug\net6.0\AsynchConsole.pdb
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\AsynchConsole\obj\Debug\net6.0\AsynchConsole.genruntimeconfig.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\AsynchConsole\obj\Debug\net6.0\ref\AsynchConsole.dll
