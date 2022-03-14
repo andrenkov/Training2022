@@ -1,0 +1,15 @@
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\SynchResourceAccess\bin\Debug\net6.0\SynchResourceAccess.exe
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 12\SynchResourceAccess\bin\Debug\net6.0\SynchResourceAccess.deps.json
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 12\SynchResourceAccess\bin\Debug\net6.0\SynchResourceAccess.runtimeconfig.json
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\SynchResourceAccess\bin\Debug\net6.0\SynchResourceAccess.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\SynchResourceAccess\bin\Debug\net6.0\SynchResourceAccess.pdb
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\SynchResourceAccess\obj\Debug\net6.0\SynchResourceAccess.csproj.AssemblyReference.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\SynchResourceAccess\obj\Debug\net6.0\SynchResourceAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\SynchResourceAccess\obj\Debug\net6.0\SynchResourceAccess.AssemblyInfoInputs.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\SynchResourceAccess\obj\Debug\net6.0\SynchResourceAccess.AssemblyInfo.cs
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\SynchResourceAccess\obj\Debug\net6.0\SynchResourceAccess.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\SynchResourceAccess\obj\Debug\net6.0\SynchResourceAccess.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\SynchResourceAccess\obj\Debug\net6.0\refint\SynchResourceAccess.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\SynchResourceAccess\obj\Debug\net6.0\SynchResourceAccess.pdb
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 12\SynchResourceAccess\obj\Debug\net6.0\SynchResourceAccess.genruntimeconfig.cache
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 12\SynchResourceAccess\obj\Debug\net6.0\ref\SynchResourceAccess.dll

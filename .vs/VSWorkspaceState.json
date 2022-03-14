@@ -2,13 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\dotNet_6",
-    "\\dotNet_6\\Chapter 10\\Chapter10_EF",
-    "\\dotNet_6\\Chapter 10\\Chapter10_EF\\Chapter10_EF",
-    "\\dotNet_6\\Chapter 10\\Chapter10_EF\\Chapter10_EF\\Context",
-    "\\dotNet_6\\Chapter 10\\Chapter10_EF\\Chapter10_EF\\Models",
-    "\\dotNet_6\\Chapter 11 LinQ",
-    "\\dotNet_6\\Chapter 11 LinQ\\LinqWithObjects"
+    "\\dotNet_6\\Chapter 04",
+    "\\dotNet_6\\Chapter 12",
+    "\\dotNet_6\\Chapter 12\\MonitoringLib",
+    "\\dotNet_6\\Chapter 12\\MonitoringLib\\MonitoringLib"
   ],
-  "SelectedNode": "\\dotNet_6\\Chapter 11 LinQ",
+  "SelectedNode": "\\dotNet_6\\Chapter 12\\MonitoringLib\\Chapter12.sln",
   "PreviewInSolutionExplorer": false
 }

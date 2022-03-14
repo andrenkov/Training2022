@@ -1,0 +1,15 @@
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\NestedTasks\bin\Debug\net6.0\NestedTasks.exe
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 12\NestedTasks\bin\Debug\net6.0\NestedTasks.deps.json
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 12\NestedTasks\bin\Debug\net6.0\NestedTasks.runtimeconfig.json
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\NestedTasks\bin\Debug\net6.0\NestedTasks.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\NestedTasks\bin\Debug\net6.0\NestedTasks.pdb
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\NestedTasks\obj\Debug\net6.0\NestedTasks.csproj.AssemblyReference.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\NestedTasks\obj\Debug\net6.0\NestedTasks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\NestedTasks\obj\Debug\net6.0\NestedTasks.AssemblyInfoInputs.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\NestedTasks\obj\Debug\net6.0\NestedTasks.AssemblyInfo.cs
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\NestedTasks\obj\Debug\net6.0\NestedTasks.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\NestedTasks\obj\Debug\net6.0\NestedTasks.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\NestedTasks\obj\Debug\net6.0\refint\NestedTasks.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\NestedTasks\obj\Debug\net6.0\NestedTasks.pdb
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 12\NestedTasks\obj\Debug\net6.0\NestedTasks.genruntimeconfig.cache
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 12\NestedTasks\obj\Debug\net6.0\ref\NestedTasks.dll

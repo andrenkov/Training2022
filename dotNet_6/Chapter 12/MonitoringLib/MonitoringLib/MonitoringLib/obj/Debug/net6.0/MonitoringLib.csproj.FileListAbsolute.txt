@@ -1,0 +1,12 @@
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 12\MonitoringLib\MonitoringLib\MonitoringLib\bin\Debug\net6.0\MonitoringLib.deps.json
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\MonitoringLib\MonitoringLib\MonitoringLib\bin\Debug\net6.0\MonitoringLib.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\MonitoringLib\MonitoringLib\MonitoringLib\bin\Debug\net6.0\MonitoringLib.pdb
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\MonitoringLib\MonitoringLib\MonitoringLib\obj\Debug\net6.0\MonitoringLib.csproj.AssemblyReference.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\MonitoringLib\MonitoringLib\MonitoringLib\obj\Debug\net6.0\MonitoringLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\MonitoringLib\MonitoringLib\MonitoringLib\obj\Debug\net6.0\MonitoringLib.AssemblyInfoInputs.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\MonitoringLib\MonitoringLib\MonitoringLib\obj\Debug\net6.0\MonitoringLib.AssemblyInfo.cs
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\MonitoringLib\MonitoringLib\MonitoringLib\obj\Debug\net6.0\MonitoringLib.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\MonitoringLib\MonitoringLib\MonitoringLib\obj\Debug\net6.0\MonitoringLib.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\MonitoringLib\MonitoringLib\MonitoringLib\obj\Debug\net6.0\refint\MonitoringLib.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\Chapter 12\MonitoringLib\MonitoringLib\MonitoringLib\obj\Debug\net6.0\MonitoringLib.pdb
+C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\Chapter 12\MonitoringLib\MonitoringLib\MonitoringLib\obj\Debug\net6.0\ref\MonitoringLib.dll

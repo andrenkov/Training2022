@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonitoringLib", "MonitoringLib\MonitoringLib.csproj", "{FC313DCB-3E08-46D8-8FC3-E0933558A493}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonitoringApp", "..\MonitoringApp\MonitoringApp.csproj", "{65000BB7-F502-4B7D-AF15-F0843A355473}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitoringApp", "..\MonitoringApp\MonitoringApp.csproj", "{65000BB7-F502-4B7D-AF15-F0843A355473}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonitoringLib", "MonitoringLib\MonitoringLib\MonitoringLib.csproj", "{511C6EC0-9561-41DB-B966-12D2ACB9B789}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithTasks", "..\WorkingWithTasks\WorkingWithTasks.csproj", "{43DE2FC7-1EB3-4C2B-AA11-7CFB697BF1C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NestedTasks", "..\NestedTasks\NestedTasks.csproj", "{6F609AA4-A851-4AC5-9854-BAA62E35B339}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SynchResourceAccess", "..\SynchResourceAccess\SynchResourceAccess.csproj", "{E1035FDD-107E-45C3-BC27-99B5335E22DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +19,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FC313DCB-3E08-46D8-8FC3-E0933558A493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC313DCB-3E08-46D8-8FC3-E0933558A493}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC313DCB-3E08-46D8-8FC3-E0933558A493}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC313DCB-3E08-46D8-8FC3-E0933558A493}.Release|Any CPU.Build.0 = Release|Any CPU
 		{65000BB7-F502-4B7D-AF15-F0843A355473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{65000BB7-F502-4B7D-AF15-F0843A355473}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{65000BB7-F502-4B7D-AF15-F0843A355473}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{65000BB7-F502-4B7D-AF15-F0843A355473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{511C6EC0-9561-41DB-B966-12D2ACB9B789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{511C6EC0-9561-41DB-B966-12D2ACB9B789}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{511C6EC0-9561-41DB-B966-12D2ACB9B789}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{511C6EC0-9561-41DB-B966-12D2ACB9B789}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43DE2FC7-1EB3-4C2B-AA11-7CFB697BF1C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43DE2FC7-1EB3-4C2B-AA11-7CFB697BF1C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43DE2FC7-1EB3-4C2B-AA11-7CFB697BF1C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43DE2FC7-1EB3-4C2B-AA11-7CFB697BF1C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F609AA4-A851-4AC5-9854-BAA62E35B339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F609AA4-A851-4AC5-9854-BAA62E35B339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F609AA4-A851-4AC5-9854-BAA62E35B339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F609AA4-A851-4AC5-9854-BAA62E35B339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1035FDD-107E-45C3-BC27-99B5335E22DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1035FDD-107E-45C3-BC27-99B5335E22DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1035FDD-107E-45C3-BC27-99B5335E22DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1035FDD-107E-45C3-BC27-99B5335E22DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
