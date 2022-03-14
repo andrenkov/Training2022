@@ -32,4 +32,15 @@ DteTime as byte[] --> DateTime?
 money as byte[] --> decimal?
 "bit" as byte[] --> bool
 
-see p558 for more manual data types fixes.
+see p558 for more manual data types fixes (long --> int etc.).
+#####################################################################
+1. create new typelib Northwind.Common.DataContext.Sqlite and move northwindContext to it.
+2. remove all entity.Property(e => e.SupplierId).ValueGeneratedNever(); Otherwise, the Insters will be returning 0.
+3. Add      modelBuilder.Entity<Product>(entity =>
+            {
+                entity.Property(e => e.UnitPrice)
+                .HasConversion<double>();
+            });
+
+4. Add class NorthwindContextExtensions.cs for DI
+see MsSql specifics on p.562
