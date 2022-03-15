@@ -1,10 +1,13 @@
-﻿namespace Northwind.Web
+﻿using Packt.Shared;
+
+namespace Northwind.Web
 {
     public class Startup
     {
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddNorthwindContext("data");//Db is in Data folder
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
@@ -26,7 +29,7 @@
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapRazorPages();
+                endpoints.MapRazorPages();//!!!!!!
                 endpoints.MapGet("/hello", () => "Hello World!");//use static page for /hello endpoint only);
             });
         }

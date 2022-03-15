@@ -19,7 +19,7 @@ namespace Packt.Shared
         }
 
         [Key]
-        public long ProductId { get; set; }
+        public int ProductId { get; set; }
         [Column(TypeName = "nvarchar (40)")]
         [StringLength(40)]
         [Required]

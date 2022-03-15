@@ -74,3 +74,19 @@ Step 4 : Create Asp.Net Core project
 6. For Razor Pages, add /Pages folder and copy index.html into it and rename it to cshtml
 	6.1 Add services.AddRazorPages() into ConfigureServices().
 	6.2.Change app.UseEndpoints() in the Configure() and add endpoints.MapRazorPages() into it.
+	6.3 Add code to Razor page (add @page, @functions{} to index.cshtml etc.).
+	6.4 For a multi page site, add the _Layout.cshtml and _ViewStart.cshtml
+	6.5 Add JavaScript and context into _Layout.cshtml.
+	6.6 Remove html code from index.cshtml that is duplicating the  one added into _Layout.cshtml.
+	6.7 Add new Razor page Suppliers.cshtml and code the OnGet() method. Ad table into Suppliers.cshtml to show the list.
+7. Add EF as a service
+	7.1 Add refference to Northwind.Common.DataContext. Add "using Packt.Shared" into Startup.cs.
+	7.2 Add services.AddNorthwindContext(); into ConfigureServices(). 
+	7.3 Modify the Suppliers.cshtml.cs and add the constructor. Change OnGet() to read from DbContext instead of hardcoded IENum
+	7.4 Add @using Packt.Shared; into the Suppliers.cshtml. And extent columns in the table
+	7.5 Make sure that the Db file is in the proper lacation where  ""public static IServiceCollection AddNorthwindContex()" loads it from". Forexample, in Northwind.Web project in the Data folder.
+		Check if the services.AddNorthwindContext("data") has the right param passing to the constructor.
+	7.6 Add OnPost() code and new block of HTML for the Insert to work.
+		7.6.1. Add @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+		7.6.1 Add simple row for data entry with the Form and Submit.
+	7.7 You can use direct inject into the page without the code. see the Orders page as an example.

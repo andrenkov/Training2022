@@ -1,19 +1,14 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=evice-width, initial-scale=1" />
-    <!--Bootstrap CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
-                     rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
-                     crossorigin="anonymous">
+﻿@page
+@functions
+{
+    public string? DayName {get; set;}
+    public void OnGet() 
+    {
+        Model.DayName = DateTime.Now.ToString("dddd");
+    }
+}
 
-    <title>Index page for Asp.Net Core</title>
 
-</head>
-<body>
-
-    <div class="container">
         <div class="jumbotron">
             <h1>
                 Welcome to Northwind B2B
@@ -29,11 +24,11 @@
                 Our customers are Clubs, restorants etc.
             </p>
             <p>
-                <a class="btn btn-primary" href="https://www.asp.net/"> Learn more...</a>
+                It's @Model.DayName!
+            </p>
+            <p>
+                <!--a class="btn btn-primary" href="https://www.asp.net/"> Learn more...</a>-->
+                <a class="btn btn-primary" href="suppliers"> Learn more about our suppliers</a>
+                 <a class="btn btn-primary" href="orders"> Orders</a>
             </p>
         </div>
-    </div>
-
-</body>
-
-</html>

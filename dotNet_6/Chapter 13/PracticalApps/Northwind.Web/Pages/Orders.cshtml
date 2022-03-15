@@ -1,0 +1,15 @@
+﻿@page
+@using Packt.Shared
+@inject northwindContext db
+
+@{
+    string title = "Orders";
+    ViewBag.Title = $"Northwind B2B - {title}";
+}
+
+<div class="row">
+    <h1 class="display-2">@title</h1>
+    <p>
+        There are <b>@db.Orders.Count() orders</b> in the database
+    </p>
+</div>

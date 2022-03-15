@@ -22,7 +22,7 @@ namespace Packt.Shared
         }
 
         [Key]
-        public long OrderId { get; set; }
+        public int OrderId { get; set; }
         [Column(TypeName = "nchar (5)")]
         [StringLength(5)]
         public string? CustomerId { get; set; }

@@ -8,14 +8,16 @@ namespace Packt.Shared
     /// This is the sqlite version
     /// See p.563 for the MsSQL version of AddNorthwindContext()
     /// </summary>
-    public static class NorthwindContextExtensions
+    public static class NorthwindContextExtensions //p.562
     {
         public static IServiceCollection AddNorthwindContext(this IServiceCollection services, string relativePath = "..")
         {
-            string databasePath = Path.Combine(relativePath, "Northwind.Db");
+            string databasePath = Path.Combine(relativePath, "northwind.db");
+            string ds = "Data source=" + databasePath;
+            
 
             services.AddDbContext<northwindContext>(options =>
-            options.UseSqlite($"Data Source={databasePath}"));
+            options.UseSqlite(ds));//"Data source=data//northwind.db"
 
             return services;
         }
