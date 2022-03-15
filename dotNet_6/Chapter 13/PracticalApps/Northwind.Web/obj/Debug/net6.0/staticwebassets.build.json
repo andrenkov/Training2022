@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "bRTbV+uECsDe2LjhHINi5yp+mb2PXuDCGe8lgXesWyc=",
+  "Source": "Northwind.Web",
+  "BasePath": "_content/Northwind.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Northwind.Web\\wwwroot",
+      "Source": "Northwind.Web",
+      "ContentRoot": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\Chapter 13\\PracticalApps\\Northwind.Web\\wwwroot\\",
+      "BasePath": "_content/Northwind.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\Chapter 13\\PracticalApps\\Northwind.Web\\wwwroot\\index.html",
+      "SourceId": "Northwind.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\Chapter 13\\PracticalApps\\Northwind.Web\\wwwroot\\",
+      "BasePath": "_content/Northwind.Web",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

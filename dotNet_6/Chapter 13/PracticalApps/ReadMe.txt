@@ -4,6 +4,7 @@ Prerequiresite:
 Init database (sqlite):
 1. Copy Northwind4SQLite.sql into the project folder.
 2. Run cmd: c:\sqlite\sqlite3 northwind.db -init data/Northwind4SQLite.sql to create tables
+
 #####################################################################
 Step 1 : Generate Db context
 #####################################################################
@@ -18,6 +19,7 @@ working!!!:
 
 Not workig for Sqlite:
 		"--schema" for all tables
+
 #####################################################################
 Step 2 : modify auto generated files for sqlite and some for mssql
 #####################################################################
@@ -36,7 +38,8 @@ DteTime as byte[] --> DateTime?
 money as byte[] --> decimal?
 "bit" as byte[] --> bool
 
-see p558 for more manual data types fixes (long --> int etc.).
+see p558 for more manual data types fixes (long --> int etc.)
+
 #####################################################################
 Step 3 : Create DbContext project
 #####################################################################
@@ -48,3 +51,26 @@ Step 3 : Create DbContext project
 				.HasConversion<double>();
 			});
 4. Add class NorthwindContextExtensions.cs for DI using IServiceCollection. See MsSql specifics on p.562
+
+#####################################################################
+Step 4 : Create Asp.Net Core project
+#####################################################################
+1. Create new project of type Asp.net Core Empty. The project shows the list of Supplies from the database.
+2. Add the following into the Program.cs file for ssl support:
+	if (!app.Environment.IsDevelopment())
+	{
+		app.UseHsts();
+	}
+	app.UseHttpsRedirection();
+
+3. For more complex projects, add startup.cs manually for configuring the DI conteiner and HTTP pipeline.
+	- ConfigureServices() - add DI into services container
+	- Configure() - Http requests pipeline
+	3.1. Add using Northwind.Web to the Program //startup
+	3.2. Add Host.CreateDefaultBuilder(args) into the Program
+	3.3 Add app.UseDefaultFiles(); for links to index, default.html etc.
+4. Add wwwroot folder for web files (index.html, ccs etc.). (see https://getbootstrap.com/docs/5.0/getting-started/introduction/#starfter-template)
+5. Add new index.html with the samle context.
+6. For Razor Pages, add /Pages folder and copy index.html into it and rename it to cshtml
+	6.1 Add services.AddRazorPages() into ConfigureServices().
+	6.2.Change app.UseEndpoints() in the Configure() and add endpoints.MapRazorPages() into it.
