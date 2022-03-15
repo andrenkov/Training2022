@@ -90,3 +90,8 @@ Step 4 : Create Asp.Net Core project
 		7.6.1. Add @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 		7.6.1 Add simple row for data entry with the Form and Submit.
 	7.7 You can use direct inject into the page without the code. see the Orders page as an example.
+8. Razor class libraries. This is to re-use it in multiple projects.
+	8.1. Add new project of the type Razor Class Library. Check "Support pages views".
+	8.2. Add Razor pages using patrialview. For example, _Employee.cshtml.
+	8.3. Add reference to this lib into the Northwind.Web project.
+	8.4. Add button onto the Index page with ref href="packtfeatures/employee". 
