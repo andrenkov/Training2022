@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u3fDDWg1+D9HdmAzMtpYapCJwr5snGu+GhHZkkxySnZLCBeA9U3KmBlg3Hm45+LYMDOBPyC/zAN7+LXaVLOCZQ==",
+  "dgSpecHash": "T7HOE34AgEAYDlkOvhrhD4M0jvRbfU1fjPOXrlb7rCamknQ+EvmwiHNt5OShD1P0/tnvgNXITiJSdnJfFmRdOQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\Chapter 13\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj",
+  "projectFilePath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vladimir\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.3\\microsoft.data.sqlite.core.6.0.3.nupkg.sha512",
     "C:\\Users\\Vladimir\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.3\\microsoft.entityframeworkcore.6.0.3.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CzSIWDKJr03oiMMuIoS/6fVjNddJaMQXcKAVbG3hgDXHpVIV9Js5b6FjQph7V4Ui50jGX1lHKCLqIiy5ZaMegA==",
+  "dgSpecHash": "I3tVPMy6xZ2hfYxKJI4wmE5f0CoCraa2X5qB5xhioD1Uq2LBgQfnx76+9b9ppjB6aS1KanN7lXt4j7eoCxI+/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\Chapter 13\\PracticalApps\\Northwind.Common.EntityModels.Sqlite\\Northwind.Common.EntityModels.Sqlite.csproj",
+  "projectFilePath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.EntityModels.Sqlite\\Northwind.Common.EntityModels.Sqlite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Vladimir\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Vladimir\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.3\\microsoft.data.sqlite.core.6.0.3.nupkg.sha512",
