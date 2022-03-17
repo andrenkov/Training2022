@@ -1,0 +1,1 @@
+﻿Area is for files and folders to integrate with Asp>Core Identity

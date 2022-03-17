@@ -1,0 +1,1 @@
+﻿Data is for Entity Framework migration classes
