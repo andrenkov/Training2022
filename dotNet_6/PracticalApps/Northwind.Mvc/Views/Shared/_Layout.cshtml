@@ -10,6 +10,7 @@
 </head>
 <body>
     <header>
+        @*Navigation bar*@
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Northwind.Mvc</a>
@@ -31,6 +32,7 @@
             </div>
         </nav>
     </header>
+    @*Body of the View where the Razor page will be injected*@
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

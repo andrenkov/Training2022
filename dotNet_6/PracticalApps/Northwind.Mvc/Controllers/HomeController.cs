@@ -2,27 +2,49 @@
 using Microsoft.AspNetCore.Mvc;
 using Northwind.Mvc.Models;
 using System.Diagnostics;
+using Packt.Shared;//Categories and Products
 
 namespace Northwind.Mvc.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly northwindContext db;
         /// <summary>
         /// <param name="logger"></param>
         /// </summary>
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, northwindContext injectedDbContect)
         {
             _logger = logger;
+            db = injectedDbContect;
         }
         /// <summary>
         /// Filters:
         /// </summary>
         //[Authorize(Roles = "Admin, SuperUser")]
-        //[ResponseCache(Duration = 10, Location = ResponseCacheLocation.Any)]//tell Browser to cache the responses for 10 sec
+        [ResponseCache(Duration = 10, Location = ResponseCacheLocation.Any)]//tell Browser to cache the responses for 10 sec
         //[Route("MyIndex")]//custom route
         public IActionResult Index()
         {
+            _logger.LogWarning("Here's the warning");
+            try
+            {
+                _logger.LogInformation("Here's the info");
+
+                HomeIndexViewModel model = new
+                    (
+                        VisitorsCount: new Random().Next(1, 1001),
+                        Categories: db.Categories.ToList(),
+                        Products: db.Products.ToList()
+                    );
+                return View(model);//pass model to View
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Error: " + ex.Message);
+            }
+            
+
             return View();
         }
 

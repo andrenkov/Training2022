@@ -15,4 +15,14 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Northwind.Common.DataContext.Sqlite\Northwind.Common.DataContext.Sqlite.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Data\northwind.db">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
