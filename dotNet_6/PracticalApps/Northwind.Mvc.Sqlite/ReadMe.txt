@@ -37,5 +37,7 @@ public abstract class Controller
 11. To generate a View, Mvc looks for the subfolder in the Views with the same name as the Controller. Then it looks for the cshtml file with 
 name as the current Action. It also seachs the Shared folder for Razor pages. 
 12. View _ViewStart.cshtml is used for defaults for all Views.
-13. Add reference to into _Layout.cshtml
+14. Edit Home View to show the Model:
+	14.1 You can edit css file, for example, to add 3 columns class "@#product-columns" for listing Products.
+	14.2 Add "using" and @model to the index View.
 

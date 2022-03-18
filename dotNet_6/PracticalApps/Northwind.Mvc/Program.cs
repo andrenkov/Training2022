@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Northwind.Mvc.Data;
 using Packt.Shared;//for getting the Db Contect
-using Microsoft.AspNetCore.Hosting;
+
 
 ///<summary>
 ///The file contain hidden Program class that contains the Main entry point.

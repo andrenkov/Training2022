@@ -605,6 +605,33 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "Northwind.Common.DataContext.Sqlite/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "6.0.3",
+          "Northwind.Common.EntityModels.Sqlite": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Northwind.Common.DataContext.Sqlite.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Northwind.Common.DataContext.Sqlite.dll": {}
+        }
+      },
+      "Northwind.Common.EntityModels.Sqlite/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Sqlite": "6.0.3"
+        },
+        "compile": {
+          "bin/placeholder/Northwind.Common.EntityModels.Sqlite.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Northwind.Common.EntityModels.Sqlite.dll": {}
+        }
       }
     }
   },
@@ -1559,6 +1586,16 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "Northwind.Common.DataContext.Sqlite/1.0.0": {
+      "type": "project",
+      "path": "../Northwind.Common.DataContext.Sqlite/Northwind.Common.DataContext.Sqlite.csproj",
+      "msbuildProject": "../Northwind.Common.DataContext.Sqlite/Northwind.Common.DataContext.Sqlite.csproj"
+    },
+    "Northwind.Common.EntityModels.Sqlite/1.0.0": {
+      "type": "project",
+      "path": "../Northwind.Common.EntityModels.Sqlite/Northwind.Common.EntityModels.Sqlite.csproj",
+      "msbuildProject": "../Northwind.Common.EntityModels.Sqlite/Northwind.Common.EntityModels.Sqlite.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1567,7 +1604,8 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.3",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.3",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.3",
-      "Microsoft.EntityFrameworkCore.Tools >= 6.0.3"
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.3",
+      "Northwind.Common.DataContext.Sqlite >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1603,7 +1641,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj": {
+              "projectPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
