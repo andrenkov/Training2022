@@ -20,6 +20,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Mvc.MsSql", "Nort
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Mvc.Sqlite", "Northwind.Mvc.Sqlite\Northwind.Mvc.Sqlite.csproj", "{672D5943-5FDB-474D-AB42-06D9F1B3F71B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.WebApi", "Northwind.WebApi\Northwind.WebApi.csproj", "{C33B9C19-22E9-44C8-BCCF-80E89DC45221}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -50,6 +52,10 @@ Global
 		{672D5943-5FDB-474D-AB42-06D9F1B3F71B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{672D5943-5FDB-474D-AB42-06D9F1B3F71B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{672D5943-5FDB-474D-AB42-06D9F1B3F71B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C33B9C19-22E9-44C8-BCCF-80E89DC45221}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C33B9C19-22E9-44C8-BCCF-80E89DC45221}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C33B9C19-22E9-44C8-BCCF-80E89DC45221}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C33B9C19-22E9-44C8-BCCF-80E89DC45221}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

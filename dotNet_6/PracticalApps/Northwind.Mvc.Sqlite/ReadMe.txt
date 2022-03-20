@@ -40,4 +40,20 @@ name as the current Action. It also seachs the Shared folder for Razor pages.
 14. Edit Home View to show the Model:
 	14.1 You can edit css file, for example, to add 3 columns class "@#product-columns" for listing Products.
 	14.2 Add "using" and @model to the index View.
+	14.3 Add code to show image categores (corousel class image)
+	14.4 Add code to list all product in the <ul> with submit to show details and buttong to filter lists
+15. Add action ProductDetail(int? id) into HomeController class and simple View to show Details of the Product.
 
+Parameters:
+ - Route parameter (/smth/id)
+ - Query param (smth?id=2)
+ - Form parameter: <form>
+						<input type="text" name="id" value="2" />
+						<input type="submit" />
+				  </form>
+				  or
+				 <form method="POST" action="/home/dosmth/2?id=3">
+						<input name="id" value="2" />
+						<input name="smthfieldname" value="2" />
+						<input type="submit" />
+				 </form>
