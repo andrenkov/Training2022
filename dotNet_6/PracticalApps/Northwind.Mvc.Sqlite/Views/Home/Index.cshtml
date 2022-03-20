@@ -13,7 +13,8 @@
 </div>
 
 @if (Model is not null)
-{    <div id="categories" class="carousel slide" data-ride="carousel" data-interval="3000" data-keyboard="true">
+{
+    <div id="categories" class="carousel slide" data-ride="carousel" data-interval="3000" data-keyboard="true">
         <ol class="carousel-indicators">
             @for (int c = 0; c < Model.Categories.Count; c++)
             {
@@ -77,7 +78,7 @@
     </form>
 
     <h3>Query products by price</h3>
-    <form asp-action="ProductsThatCostMoreThan" method="GET">
+    <form asp-action="ProductThatCostMoreThan" method="GET">
       <input name="price" placeholder="Enter a product price" />
       <input type="submit" />
     </form>
