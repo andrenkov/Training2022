@@ -20,7 +20,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Mvc.MsSql", "Nort
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.Mvc.Sqlite", "Northwind.Mvc.Sqlite\Northwind.Mvc.Sqlite.csproj", "{672D5943-5FDB-474D-AB42-06D9F1B3F71B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.WebApi", "Northwind.WebApi\Northwind.WebApi.csproj", "{C33B9C19-22E9-44C8-BCCF-80E89DC45221}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.WebApi", "Northwind.WebApi\Northwind.WebApi.csproj", "{C33B9C19-22E9-44C8-BCCF-80E89DC45221}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,15 +37,12 @@ Global
 		{EAF332AF-5D54-4298-A52E-D80B3131DE98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAF332AF-5D54-4298-A52E-D80B3131DE98}.Release|Any CPU.Build.0 = Release|Any CPU
 		{792F8656-C87A-482C-AA08-AE6FF44FF13C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{792F8656-C87A-482C-AA08-AE6FF44FF13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{792F8656-C87A-482C-AA08-AE6FF44FF13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{792F8656-C87A-482C-AA08-AE6FF44FF13C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C29302C9-088D-4532-9A16-350A32DB3806}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C29302C9-088D-4532-9A16-350A32DB3806}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C29302C9-088D-4532-9A16-350A32DB3806}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C29302C9-088D-4532-9A16-350A32DB3806}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7AAEAEA0-C41A-49B0-8B6A-1D070C95AF24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7AAEAEA0-C41A-49B0-8B6A-1D070C95AF24}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AAEAEA0-C41A-49B0-8B6A-1D070C95AF24}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AAEAEA0-C41A-49B0-8B6A-1D070C95AF24}.Release|Any CPU.Build.0 = Release|Any CPU
 		{672D5943-5FDB-474D-AB42-06D9F1B3F71B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU

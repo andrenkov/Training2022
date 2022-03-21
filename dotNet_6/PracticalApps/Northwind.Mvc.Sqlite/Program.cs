@@ -2,10 +2,16 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Northwind.Mvc.Sqlite.Data;
 using Packt.Shared;//for getting the Db Contect
+using System.Net.Http.Headers;
 
 ///<summary>
 ///The file contain hidden Program class that contains the Main entry point.
 ///</summary>
+///
+
+/// <summary>
+/// MVC Client Project
+/// </summary>
 
 
 ///<summary>
@@ -18,6 +24,17 @@ using Packt.Shared;//for getting the Db Contect
 ///</summary>
 
 var builder = WebApplication.CreateBuilder(args);
+
+#region Added for HttpClientFactory to call the Api
+
+builder.Services.AddHttpClient(name: "Northwind.WebApi",
+    configureClient: options =>
+    {
+        options.BaseAddress = new Uri("https://localhost:5002/");
+        options.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json", 1.0));
+    });
+
+#endregion
 
 // Add services to the container.
 //1. Db for users auth 

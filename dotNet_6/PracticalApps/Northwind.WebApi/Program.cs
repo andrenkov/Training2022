@@ -2,14 +2,28 @@ using static System.Console;
 using Microsoft.AspNetCore.Mvc.Formatters;
 using Packt.Shared; // AddNorthwindContext extension method
 
-
 using Microsoft.OpenApi.Models;
 using Northwind.WebApi.Repositories;
 using Swashbuckle.AspNetCore.SwaggerUI; // SubmitMethod
 using Microsoft.AspNetCore.HttpLogging; // HttpLoggingFields
 using Microsoft.EntityFrameworkCore;
 
+/// <summary>
+/// API Project
+/// </summary>
+
 var builder = WebApplication.CreateBuilder(args);
+
+#region Added for HttpClientFactory calls
+
+builder.WebHost.UseUrls("https://localhost:5002/");
+//target machine actively refused it ???
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", builder => { builder.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod(); });
+});//Cross-Origin Resource Sharing
+
+#endregion
 
 //builder.Services.AddNorthwindContext();
 var sqliteServerConnection = builder.Configuration.GetConnectionString("NorthwindConnection");//Northwind local Db
@@ -65,15 +79,26 @@ builder.Services.AddHttpLogging(options =>
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+app.UseHttpsRedirection();
 
+// Configure the HTTP request pipeline.
+#region Added for HttpClientFactory
+/// <summary>
+/// allow calls from the url origin to exec get, post, put and delete on the service
+/// </summary>
 app.UseCors(configurePolicy: options =>
 {
     options.WithMethods("GET", "POST", "PUT", "DELETE");
     options.WithOrigins(
-      "https://localhost:5001" // allow requests from the MVC client
+      "https://localhost:5001"// allow requests from the MVC client via https. Can be [] like "https://localhost:5001", "http://localhost:5000" 
     );
 });
+
+//target machine actively refused it ???
+//app.UseCors("AllowAll");
+
+#endregion
+
 
 app.UseHttpLogging();
 
@@ -92,10 +117,12 @@ if (app.Environment.IsDevelopment())
     });
 }
 
-app.UseHttpsRedirection();
-
 app.UseAuthorization();
 
 app.MapControllers();
+
+//app.UseEndpoints(_ => { });
+//app.UseEndpoints(endpoints => endpoints.MapControllers();});
+
 
 app.Run();

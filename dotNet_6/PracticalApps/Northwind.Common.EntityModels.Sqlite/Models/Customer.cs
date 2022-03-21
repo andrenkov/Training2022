@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Xml.Serialization;
 using Microsoft.EntityFrameworkCore;
 
 namespace Packt.Shared
@@ -52,7 +53,8 @@ namespace Packt.Shared
         [StringLength(24)]
         public string? Fax { get; set; }
 
-        [InverseProperty("Customer")]
+        [InverseProperty(nameof(Order.Customer))]
+        [XmlIgnore]//serialize this property if Client requests am Xml, but only if json requested
         public virtual ICollection<Order> Orders { get; set; }
     }
 }

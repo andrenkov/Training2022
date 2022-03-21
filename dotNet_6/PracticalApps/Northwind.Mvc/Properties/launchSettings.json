@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "Northwind.Mvc": {
+    "Northwind.Mvc,MsSql": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,

@@ -11,13 +11,20 @@ public class HomeController : Controller
 {
     private readonly ILogger<HomeController> _logger;
     private readonly northwindContext db;
+    #region Added for HttpClientFactory
+    private readonly IHttpClientFactory clientFactory;
+    #endregion
+
     /// <summary>
     /// <param name="logger"></param>
     /// </summary>
-    public HomeController(ILogger<HomeController> logger, northwindContext injectedDbContect)
+    public HomeController(ILogger<HomeController> logger, northwindContext injectedDbContect, IHttpClientFactory httpClientFactory)
     {
         _logger = logger;
         db = injectedDbContect;
+        #region Added for HttpClientFactory
+        clientFactory = httpClientFactory;
+        #endregion
     }
 
     public IActionResult Privacy()
@@ -111,4 +118,41 @@ public class HomeController : Controller
         ViewBag.MaxPrice = price.Value.ToString();
         return View(model);
     }
+
+    #region Added for HttpClientFactory
+    /// <summary>
+    /// Action to call WebApi
+    /// </summary>
+    /// <param name="country"></param>
+    /// <returns></returns>
+    public async Task<IActionResult> Customers(string country)
+    {
+        string uri;
+
+        if (string.IsNullOrEmpty(country))
+        {
+            ViewData["Title"] = "All Customers Worldwide";
+            uri = "api/customers/";
+        }
+        else
+        {
+            ViewData["Title"] = $"Customers in {country}";
+            uri = $"api/customers/?country={country}";
+        }
+
+        #region Http call
+
+        HttpClient client = clientFactory.CreateClient(name: "Northwind.WebApi");
+
+        HttpRequestMessage request = new(method: HttpMethod.Get, requestUri: uri);
+
+        HttpResponseMessage response = await client.SendAsync(request);
+
+        IEnumerable<Customer>? model = await response.Content.ReadFromJsonAsync<IEnumerable<Customer>>();
+
+        #endregion
+
+        return View(model);
+    }
+    #endregion
 }

@@ -15,3 +15,9 @@ This will copy the entire table into memory. In real life, you should use the di
 7. Add new CustomersController
 8. For logs, add or modify builder.Services.AddHttpLogging() and add Options (not working as expected???).
 9. Configure swagger in program.cs
+
+#################################
+Add HttpClient
+
+See Northwind.Mvc.Sqlite project
+
