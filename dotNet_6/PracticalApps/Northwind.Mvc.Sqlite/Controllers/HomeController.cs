@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Northwind.Common;
 using Northwind.Mvc.Models;
 using Northwind.Mvc.Sqlite.Models;
 using Packt.Shared;
@@ -47,7 +48,27 @@ public class HomeController : Controller
                                                                         //[Route("MyIndex")]//custom route
     public async Task<IActionResult> Index()
     {
-        _logger.LogWarning("Here's the warning");
+        _logger.LogError("This is a serious error (not really!)");
+        _logger.LogWarning("This is your first warning!");
+        _logger.LogWarning("Second warning!");
+        _logger.LogInformation("I am in the Index method of the HomeController.");
+
+        try
+        {
+            HttpClient client = clientFactory.CreateClient(name: "Minimal.Api");//must match builder.Services.AddHttpClient( name : "Minimal.Api",
+
+            HttpRequestMessage request = new(method: HttpMethod.Get, requestUri: "api/weather");
+
+            HttpResponseMessage response = await client.SendAsync(request);
+
+            ViewData["weather"] = await response.Content.ReadFromJsonAsync<WeatherForecast[]>();
+        }
+        catch (Exception ex)
+        {
+            _logger.LogWarning($"The Minimal.WebApi service is not responding. Exception: {ex.Message}");
+            ViewData["weather"] = Enumerable.Empty<WeatherForecast>().ToArray();
+        }
+
         try
         {
             _logger.LogInformation("Here's the info");

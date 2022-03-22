@@ -1,16 +1,40 @@
 ﻿@using Packt.Shared
 @using Northwind.Mvc.Models
+@using Northwind.Common
 @model HomeIndexViewModel//add for the intellesense
 
 @{
     ViewData["Title"] = "Home Page";
     string currItem = "";
+    //Show weather form the minimal Api
+    WeatherForecast[]? weather = ViewData["weather"] as  WeatherForecast[];
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome to Northwind Home (Sqlite)</h1>
     <p class="alert alert-primary">@DateTime.Now.ToLongTimeString()</p>
+    @*Show weather form the minimal Api *@
+    <p>
+    <h4>Five-Day Weather Forecast</h4>
+    @if ((weather is null) || (!weather.Any()))
+    {
+      <p>No weather forecasts found.</p>
+    }
+    else
+    {
+    <table class="table table-info">
+      <tr>
+        @foreach (WeatherForecast w in weather)
+        {
+          <td>@w.Date.ToString("ddd d MMM") will be @w.Summary</td>
+        }
+      </tr>
+    </table>
+    }
+    </p>
+  <p><a asp-action="ModelBinding" asp-controller="Home">Binding</a></p>
 </div>
+
 
 @if (Model is not null)
 {
@@ -71,6 +95,7 @@
     <p class="lead">
       We have had @Model?.VisitorsCount visitors this month.
     </p>
+    @*Calling WebApi*@
     <h3>Query customers from a service</h3>
     <form asp-action="Customers" method="get">
       <input name="country" placeholder="Enter a country" />
