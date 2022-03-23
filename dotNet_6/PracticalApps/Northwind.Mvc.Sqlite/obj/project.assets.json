@@ -606,6 +606,16 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Northwind.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Northwind.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Northwind.Common.dll": {}
+        }
+      },
       "Northwind.Common.DataContext.Sqlite/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1587,6 +1597,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Northwind.Common/1.0.0": {
+      "type": "project",
+      "path": "../Northwind.Common/Northwind.Common.csproj",
+      "msbuildProject": "../Northwind.Common/Northwind.Common.csproj"
+    },
     "Northwind.Common.DataContext.Sqlite/1.0.0": {
       "type": "project",
       "path": "../Northwind.Common.DataContext.Sqlite/Northwind.Common.DataContext.Sqlite.csproj",
@@ -1605,6 +1620,7 @@
       "Microsoft.AspNetCore.Identity.UI >= 6.0.3",
       "Microsoft.EntityFrameworkCore.Sqlite >= 6.0.3",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.3",
+      "Northwind.Common >= 1.0.0",
       "Northwind.Common.DataContext.Sqlite >= 1.0.0"
     ]
   },
@@ -1616,11 +1632,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Mvc.Sqlite\\Northwind.Mvc.Sqlite.csproj",
+      "projectUniqueName": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Mvc.Sqlite\\Northwind.Mvc.Sqlite.csproj",
       "projectName": "Northwind.Mvc.Sqlite",
-      "projectPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Mvc.Sqlite\\Northwind.Mvc.Sqlite.csproj",
+      "projectPath": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Mvc.Sqlite\\Northwind.Mvc.Sqlite.csproj",
       "packagesPath": "C:\\Users\\Vladimir\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Mvc.Sqlite\\obj\\",
+      "outputPath": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Mvc.Sqlite\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -1642,8 +1658,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj": {
-              "projectPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj"
+            "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj": {
+              "projectPath": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj"
+            },
+            "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj": {
+              "projectPath": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj"
             }
           }
         }

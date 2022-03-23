@@ -1,6 +1,3 @@
-using Microsoft.AspNetCore.Components;
-using Microsoft.AspNetCore.Components.Web;
-using Microsoft.EntityFrameworkCore;
 using Northwind.BlazorServer.Data;
 using Packt.Shared;
 
@@ -12,10 +9,7 @@ builder.Services.AddServerSideBlazor();//Blazor Server App
 builder.Services.AddSingleton<WeatherForecastService>();
 
 //Get Db entities
-//builder.Services.AddNorthwindContext(); this is how the example showing it
-var sqliteServerConnection = builder.Configuration.GetConnectionString("NorthwindConnection");//Northwind local Db
-builder.Services.AddDbContext<northwindContext>(options =>
-    options.UseSqlite(sqliteServerConnection));
+builder.Services.AddNorthwindContext(); //this is how the example showing it. Db must be in the "Solution Items" folder
 
 builder.Services.AddTransient<INorthwindService, NorthwindService>();
 

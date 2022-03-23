@@ -25,11 +25,11 @@ builder.Services.AddCors(options =>
 
 #endregion
 
-//builder.Services.AddNorthwindContext();
-var sqliteServerConnection = builder.Configuration.GetConnectionString("NorthwindConnection");//Northwind local Db
-//builder.Services.AddNorthwindContext(sqliteServerConnection);
-builder.Services.AddDbContext<northwindContext>(options =>
-    options.UseSqlite(sqliteServerConnection));
+builder.Services.AddNorthwindContext();
+//var sqliteServerConnection = builder.Configuration.GetConnectionString("NorthwindConnection");//Northwind local Db
+////builder.Services.AddNorthwindContext(sqliteServerConnection);
+//builder.Services.AddDbContext<northwindContext>(options =>
+//    options.UseSqlite(sqliteServerConnection));
 
 // Add services to the container.
 
