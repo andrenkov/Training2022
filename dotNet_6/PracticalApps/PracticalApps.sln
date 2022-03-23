@@ -36,6 +36,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.BlazorWasm.Client
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.BlazorWasm.Shared", "Northwind.BlazorWasm\Shared\Northwind.BlazorWasm.Shared.csproj", "{CA2E62E7-B1CE-4292-B139-F211CEDAFBDA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Blazor.Customers", "Northwind.Blazor.Customers\Northwind.Blazor.Customers.csproj", "{77EFDB6D-9C33-4389-BB30-88524166F56A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -91,6 +93,10 @@ Global
 		{CA2E62E7-B1CE-4292-B139-F211CEDAFBDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA2E62E7-B1CE-4292-B139-F211CEDAFBDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CA2E62E7-B1CE-4292-B139-F211CEDAFBDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77EFDB6D-9C33-4389-BB30-88524166F56A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77EFDB6D-9C33-4389-BB30-88524166F56A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77EFDB6D-9C33-4389-BB30-88524166F56A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77EFDB6D-9C33-4389-BB30-88524166F56A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,1 @@
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\PracticalApps\Northwind.BlazorWasm\Client\bin\Release\net6.0\publish\web.config

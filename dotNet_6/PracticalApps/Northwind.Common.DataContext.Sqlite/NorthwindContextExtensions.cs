@@ -10,7 +10,7 @@ namespace Packt.Shared
     /// </summary>
     public static class NorthwindContextExtensions //p.562
     {
-        public static IServiceCollection AddNorthwindContext(this IServiceCollection services, string relativePath = "..")//.. is pointing to teh Solution Items Folder
+        public static IServiceCollection AddNorthwindContext(this IServiceCollection services, string relativePath = "..")//.. is pointing to the Solution Items Folder
         {
             string databasePath = Path.Combine(relativePath, "northwind.db");
             string ds = "Data source=" + databasePath;

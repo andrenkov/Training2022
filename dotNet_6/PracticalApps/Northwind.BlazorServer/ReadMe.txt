@@ -18,3 +18,10 @@ public string Country (get;set;)
 }
 
 Good practice is to set a default for param using the event OnParametersSet() of the @page.
+
+Defining Forms p.745:
+1. Use EditForm ready-made component where it binds a Model with an object properties and event handlers for validation and submit functionality.
+2. Add CustomerDetail.razor into the Shared for creating and editting customers. Main part is <EditForm></EditForm>
+3. Add CreateCustomer.razor into Pages
+4. Customer.razor has refs to deletecustomer and editcustomer razor components (component pages are in Pages).
+

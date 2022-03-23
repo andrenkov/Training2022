@@ -1,0 +1,12 @@
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\PracticalApps\Northwind.BlazorWasm\Shared\bin\Release\net6.0\Northwind.BlazorWasm.Shared.deps.json
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\PracticalApps\Northwind.BlazorWasm\Shared\bin\Release\net6.0\Northwind.BlazorWasm.Shared.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\PracticalApps\Northwind.BlazorWasm\Shared\bin\Release\net6.0\Northwind.BlazorWasm.Shared.pdb
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\PracticalApps\Northwind.BlazorWasm\Shared\obj\Release\net6.0\Northwind.BlazorWasm.Shared.csproj.AssemblyReference.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\PracticalApps\Northwind.BlazorWasm\Shared\obj\Release\net6.0\Northwind.BlazorWasm.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\PracticalApps\Northwind.BlazorWasm\Shared\obj\Release\net6.0\Northwind.BlazorWasm.Shared.AssemblyInfoInputs.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\PracticalApps\Northwind.BlazorWasm\Shared\obj\Release\net6.0\Northwind.BlazorWasm.Shared.AssemblyInfo.cs
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\PracticalApps\Northwind.BlazorWasm\Shared\obj\Release\net6.0\Northwind.BlazorWasm.Shared.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\PracticalApps\Northwind.BlazorWasm\Shared\obj\Release\net6.0\Northwind.BlazorWasm.Shared.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\PracticalApps\Northwind.BlazorWasm\Shared\obj\Release\net6.0\refint\Northwind.BlazorWasm.Shared.dll
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\PracticalApps\Northwind.BlazorWasm\Shared\obj\Release\net6.0\Northwind.BlazorWasm.Shared.pdb
+C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\PracticalApps\Northwind.BlazorWasm\Shared\obj\Release\net6.0\ref\Northwind.BlazorWasm.Shared.dll

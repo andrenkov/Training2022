@@ -8,65 +8,73 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Northwind.BlazorServer
 build_property.RootNamespace = Northwind.BlazorServer
-build_property.ProjectDir = C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\PracticalApps\Northwind.BlazorServer\
+build_property.ProjectDir = C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\PracticalApps\Northwind.BlazorServer\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Vladimir\Source\Repos\andrenkov\Training2022\dotNet_6\PracticalApps\Northwind.BlazorServer
+build_property.MSBuildProjectDirectory = C:\Users\Vladimir\source\repos\andrenkov\Training2022\dotNet_6\PracticalApps\Northwind.BlazorServer
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Vladimir/Source/Repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/App.razor]
+[C:/Users/Vladimir/source/repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir/Source/Repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Pages/Counter.razor]
+[C:/Users/Vladimir/source/repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir/Source/Repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Pages/Customers new.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJzIG5ldy5yYXpvcg==
+[C:/Users/Vladimir/source/repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Pages/deleted files/CreateCustomer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZGVsZXRlZCBmaWxlc1xDcmVhdGVDdXN0b21lci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir/Source/Repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Pages/Customers old.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJzIG9sZC5yYXpvcg==
+[C:/Users/Vladimir/source/repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Pages/deleted files/Customers.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZGVsZXRlZCBmaWxlc1xDdXN0b21lcnMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir/Source/Repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Pages/Customers.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ3VzdG9tZXJzLnJhem9y
+[C:/Users/Vladimir/source/repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Pages/deleted files/DeleteCustomer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZGVsZXRlZCBmaWxlc1xEZWxldGVDdXN0b21lci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir/Source/Repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Pages/FetchData.razor]
+[C:/Users/Vladimir/source/repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Pages/deleted files/EditCustomer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcZGVsZXRlZCBmaWxlc1xFZGl0Q3VzdG9tZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vladimir/source/repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir/Source/Repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Pages/Index.razor]
+[C:/Users/Vladimir/source/repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir/Source/Repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Shared/SurveyPrompt.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+[C:/Users/Vladimir/source/repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Shared/deleted files/CustomerDetail.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXGRlbGV0ZWQgZmlsZXNcQ3VzdG9tZXJEZXRhaWwucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir/Source/Repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/_Imports.razor]
+[C:/Users/Vladimir/source/repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Shared/deleted files/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXGRlbGV0ZWQgZmlsZXNcU3VydmV5UHJvbXB0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Vladimir/source/repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir/Source/Repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-4jduify66e
+[C:/Users/Vladimir/source/repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Shared/deleted files/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXGRlbGV0ZWQgZmlsZXNcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-t59i4eecn1
 
-[C:/Users/Vladimir/Source/Repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Shared/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-qmwhgnoo8j
+[C:/Users/Vladimir/source/repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Shared/deleted files/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXGRlbGV0ZWQgZmlsZXNcTmF2TWVudS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-vqd5c4ar3p
 
-[C:/Users/Vladimir/Source/Repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Pages/Error.cshtml]
+[C:/Users/Vladimir/source/repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir/Source/Repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Pages/_Host.cshtml]
+[C:/Users/Vladimir/source/repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Vladimir/Source/Repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Pages/_Layout.cshtml]
+[C:/Users/Vladimir/source/repos/andrenkov/Training2022/dotNet_6/PracticalApps/Northwind.BlazorServer/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

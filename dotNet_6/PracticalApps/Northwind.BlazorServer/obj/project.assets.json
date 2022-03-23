@@ -436,6 +436,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "Northwind.Blazor.Customers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Northwind.Common.EntityModels.Sqlite": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Northwind.Blazor.Customers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Northwind.Blazor.Customers.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Northwind.Common.DataContext.Sqlite/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1092,6 +1108,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Northwind.Blazor.Customers/1.0.0": {
+      "type": "project",
+      "path": "../Northwind.Blazor.Customers/Northwind.Blazor.Customers.csproj",
+      "msbuildProject": "../Northwind.Blazor.Customers/Northwind.Blazor.Customers.csproj"
+    },
     "Northwind.Common.DataContext.Sqlite/1.0.0": {
       "type": "project",
       "path": "../Northwind.Common.DataContext.Sqlite/Northwind.Common.DataContext.Sqlite.csproj",
@@ -1105,6 +1126,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Northwind.Blazor.Customers >= 1.0.0",
       "Northwind.Common.DataContext.Sqlite >= 1.0.0"
     ]
   },
@@ -1142,6 +1164,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Blazor.Customers\\Northwind.Blazor.Customers.csproj": {
+              "projectPath": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Blazor.Customers\\Northwind.Blazor.Customers.csproj"
+            },
             "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj": {
               "projectPath": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj"
             }
