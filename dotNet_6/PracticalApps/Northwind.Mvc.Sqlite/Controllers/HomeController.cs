@@ -6,6 +6,9 @@ using Northwind.Mvc.Models;
 using Northwind.Mvc.Sqlite.Models;
 using Packt.Shared;
 
+using Grpc.Net.Client; // GrpcChannel
+using Northwind.gRPC;
+
 namespace Northwind.Mvc.Sqlite.Controllers;
 
 public class HomeController : Controller
@@ -98,14 +101,14 @@ public class HomeController : Controller
     public async Task<IActionResult> ProductDetail(int? id)
     {
         if (!id.HasValue)
-        { 
+        {
             return BadRequest("You must pass the product Id, for example, /21");
         }
 
         Product? model = await db.Products
             .SingleOrDefaultAsync(p => p.ProductId == id);
         if (model == null)
-        { 
+        {
             return NotFound($"ProductId {id} not found");
         }
 
@@ -176,4 +179,45 @@ public class HomeController : Controller
         return View(model);
     }
     #endregion
+
+    public async Task<IActionResult> Services()
+    {
+        try
+        {
+            using (GrpcChannel channel = GrpcChannel.ForAddress("https://localhost:5006"))
+            {
+                Greeter.GreeterClient greeter = new(channel);
+                HelloReply reply = await greeter.SayHelloAsync(
+                new HelloRequest { Name = "Vladimir" });
+                ViewData["greeting"] = "Greeting from gRPC service: " + reply.Message;
+            }
+        }
+        catch (Exception)
+        {
+            _logger.LogWarning($"Northwind.gRPC service is not responding.");
+        }
+
+        try
+        {
+            using (GrpcChannel channel =
+            GrpcChannel.ForAddress("https://localhost:5006"))
+            {
+                Shipr.ShiprClient shipr = new(channel);
+                ShipperReply reply = await shipr.GetShipperAsync(
+                new ShipperRequest { ShipperId = 3 });
+                ViewData["shipr"] = new Shipper
+                {
+                    ShipperId = reply.ShipperId,
+                    CompanyName = reply.CompanyName,
+                    Phone = reply.Phone
+                };
+            }
+        }
+        catch (Exception)
+        {
+            _logger.LogWarning($"Northwind.gRPC service is not responding.");
+        }
+
+        return View();
+    }
 }
