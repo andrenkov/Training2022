@@ -1,2 +1,0 @@
-obj\Debug\net6.0\Protos/Shipper.cs \
-obj\Debug\net6.0\Protos/ShipperGrpc.cs: Protos/shipper.proto

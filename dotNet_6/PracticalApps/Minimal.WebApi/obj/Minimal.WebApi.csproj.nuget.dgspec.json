@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Minimal.WebApi\\Minimal.WebApi.csproj": {}
+    "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Minimal.WebApi\\Minimal.WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Minimal.WebApi\\Minimal.WebApi.csproj": {
+    "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Minimal.WebApi\\Minimal.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Minimal.WebApi\\Minimal.WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Minimal.WebApi\\Minimal.WebApi.csproj",
         "projectName": "Minimal.WebApi",
-        "projectPath": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Minimal.WebApi\\Minimal.WebApi.csproj",
+        "projectPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Minimal.WebApi\\Minimal.WebApi.csproj",
         "packagesPath": "C:\\Users\\Vladimir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Minimal.WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Minimal.WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -33,8 +33,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj": {
-                "projectPath": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj"
+              "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj": {
+                "projectPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj"
               }
             }
           }
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj": {
+    "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj",
+        "projectUniqueName": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj",
         "projectName": "Northwind.Common",
-        "projectPath": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj",
+        "projectPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj",
         "packagesPath": "C:\\Users\\Vladimir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\obj\\",
+        "outputPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

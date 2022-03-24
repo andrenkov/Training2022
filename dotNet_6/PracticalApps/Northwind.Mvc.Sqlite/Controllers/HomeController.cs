@@ -179,7 +179,10 @@ public class HomeController : Controller
         return View(model);
     }
     #endregion
-
+    /// <summary>
+    /// gRPC service
+    /// </summary>
+    /// <returns></returns>
     public async Task<IActionResult> Services()
     {
         try
@@ -218,6 +221,15 @@ public class HomeController : Controller
             _logger.LogWarning($"Northwind.gRPC service is not responding.");
         }
 
+        return View();
+    }
+
+    /// <summary>
+    /// ASP.NET Core SignalR 
+    /// </summary>
+    /// <returns></returns>
+    public IActionResult Chat()
+    {
         return View();
     }
 }

@@ -4,6 +4,8 @@ using Northwind.Mvc.Sqlite.Data;
 using Packt.Shared;//for getting the Db Contect
 using System.Net.Http.Headers;
 
+using Northwind.Mvc.Hubs; // ChatHub
+
 ///<summary>
 ///The file contain hidden Program class that contains the Main entry point.
 ///</summary>
@@ -53,6 +55,8 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddSignalR();//add SignalR to services collection
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -79,5 +83,7 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
+
+app.MapHub<ChatHub>("/chat");//map the relative URL path /chat to your SignalR hub
 
 app.Run();
