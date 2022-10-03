@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using _01InterfaceImpl.Models;
+
+WildDuck MyDuck = new("Wild duck");
+MyDuck.DisplayDuck();
+MyDuck.MoveDuck();
+
