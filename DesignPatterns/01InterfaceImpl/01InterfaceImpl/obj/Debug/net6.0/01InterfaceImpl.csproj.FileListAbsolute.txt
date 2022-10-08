@@ -1,0 +1,15 @@
+C:\Users\vlad\source\repos\andrenkov\Training2022\DesignPatterns\01InterfaceImpl\01InterfaceImpl\bin\Debug\net6.0\01InterfaceImpl.exe
+C:\Users\vlad\source\repos\andrenkov\Training2022\DesignPatterns\01InterfaceImpl\01InterfaceImpl\bin\Debug\net6.0\01InterfaceImpl.deps.json
+C:\Users\vlad\source\repos\andrenkov\Training2022\DesignPatterns\01InterfaceImpl\01InterfaceImpl\bin\Debug\net6.0\01InterfaceImpl.runtimeconfig.json
+C:\Users\vlad\source\repos\andrenkov\Training2022\DesignPatterns\01InterfaceImpl\01InterfaceImpl\bin\Debug\net6.0\01InterfaceImpl.dll
+C:\Users\vlad\source\repos\andrenkov\Training2022\DesignPatterns\01InterfaceImpl\01InterfaceImpl\bin\Debug\net6.0\01InterfaceImpl.pdb
+C:\Users\vlad\source\repos\andrenkov\Training2022\DesignPatterns\01InterfaceImpl\01InterfaceImpl\obj\Debug\net6.0\01InterfaceImpl.csproj.AssemblyReference.cache
+C:\Users\vlad\source\repos\andrenkov\Training2022\DesignPatterns\01InterfaceImpl\01InterfaceImpl\obj\Debug\net6.0\01InterfaceImpl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vlad\source\repos\andrenkov\Training2022\DesignPatterns\01InterfaceImpl\01InterfaceImpl\obj\Debug\net6.0\01InterfaceImpl.AssemblyInfoInputs.cache
+C:\Users\vlad\source\repos\andrenkov\Training2022\DesignPatterns\01InterfaceImpl\01InterfaceImpl\obj\Debug\net6.0\01InterfaceImpl.AssemblyInfo.cs
+C:\Users\vlad\source\repos\andrenkov\Training2022\DesignPatterns\01InterfaceImpl\01InterfaceImpl\obj\Debug\net6.0\01InterfaceImpl.csproj.CoreCompileInputs.cache
+C:\Users\vlad\source\repos\andrenkov\Training2022\DesignPatterns\01InterfaceImpl\01InterfaceImpl\obj\Debug\net6.0\01InterfaceImpl.dll
+C:\Users\vlad\source\repos\andrenkov\Training2022\DesignPatterns\01InterfaceImpl\01InterfaceImpl\obj\Debug\net6.0\refint\01InterfaceImpl.dll
+C:\Users\vlad\source\repos\andrenkov\Training2022\DesignPatterns\01InterfaceImpl\01InterfaceImpl\obj\Debug\net6.0\01InterfaceImpl.pdb
+C:\Users\vlad\source\repos\andrenkov\Training2022\DesignPatterns\01InterfaceImpl\01InterfaceImpl\obj\Debug\net6.0\01InterfaceImpl.genruntimeconfig.cache
+C:\Users\vlad\source\repos\andrenkov\Training2022\DesignPatterns\01InterfaceImpl\01InterfaceImpl\obj\Debug\net6.0\ref\01InterfaceImpl.dll

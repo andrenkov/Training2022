@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Mvc.Sqlite\\Northwind.Mvc.Sqlite.csproj": {}
+    "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Mvc.Sqlite\\Northwind.Mvc.Sqlite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj": {
+    "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj",
+        "projectUniqueName": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj",
         "projectName": "Northwind.Common.DataContext.Sqlite",
-        "projectPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj",
-        "packagesPath": "C:\\Users\\Vladimir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\obj\\",
+        "projectPath": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj",
+        "packagesPath": "C:\\Users\\vlad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Vladimir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vlad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,14 +27,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.EntityModels.Sqlite\\Northwind.Common.EntityModels.Sqlite.csproj": {
-                "projectPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.EntityModels.Sqlite\\Northwind.Common.EntityModels.Sqlite.csproj"
+              "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.EntityModels.Sqlite\\Northwind.Common.EntityModels.Sqlite.csproj": {
+                "projectPath": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.EntityModels.Sqlite\\Northwind.Common.EntityModels.Sqlite.csproj"
               }
             }
           }
@@ -60,7 +61,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -69,25 +71,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.EntityModels.Sqlite\\Northwind.Common.EntityModels.Sqlite.csproj": {
+    "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.EntityModels.Sqlite\\Northwind.Common.EntityModels.Sqlite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.EntityModels.Sqlite\\Northwind.Common.EntityModels.Sqlite.csproj",
+        "projectUniqueName": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.EntityModels.Sqlite\\Northwind.Common.EntityModels.Sqlite.csproj",
         "projectName": "Northwind.Common.EntityModels.Sqlite",
-        "projectPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.EntityModels.Sqlite\\Northwind.Common.EntityModels.Sqlite.csproj",
-        "packagesPath": "C:\\Users\\Vladimir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.EntityModels.Sqlite\\obj\\",
+        "projectPath": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.EntityModels.Sqlite\\Northwind.Common.EntityModels.Sqlite.csproj",
+        "packagesPath": "C:\\Users\\vlad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.EntityModels.Sqlite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Vladimir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vlad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -96,6 +98,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -131,7 +134,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -140,25 +144,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj": {
+    "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj",
+        "projectUniqueName": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj",
         "projectName": "Northwind.Common",
-        "projectPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj",
-        "packagesPath": "C:\\Users\\Vladimir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\obj\\",
+        "projectPath": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj",
+        "packagesPath": "C:\\Users\\vlad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Vladimir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vlad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -167,6 +171,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -190,7 +195,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -199,25 +205,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.gRPC\\Northwind.gRPC.csproj": {
+    "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.gRPC\\Northwind.gRPC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.gRPC\\Northwind.gRPC.csproj",
+        "projectUniqueName": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.gRPC\\Northwind.gRPC.csproj",
         "projectName": "Northwind.gRPC",
-        "projectPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.gRPC\\Northwind.gRPC.csproj",
-        "packagesPath": "C:\\Users\\Vladimir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.gRPC\\obj\\",
+        "projectPath": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.gRPC\\Northwind.gRPC.csproj",
+        "packagesPath": "C:\\Users\\vlad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.gRPC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Vladimir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vlad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -226,14 +232,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj": {
-                "projectPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj"
+              "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj": {
+                "projectPath": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj"
               }
             }
           }
@@ -259,7 +266,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -271,25 +279,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Mvc.Sqlite\\Northwind.Mvc.Sqlite.csproj": {
+    "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Mvc.Sqlite\\Northwind.Mvc.Sqlite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Mvc.Sqlite\\Northwind.Mvc.Sqlite.csproj",
+        "projectUniqueName": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Mvc.Sqlite\\Northwind.Mvc.Sqlite.csproj",
         "projectName": "Northwind.Mvc.Sqlite",
-        "projectPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Mvc.Sqlite\\Northwind.Mvc.Sqlite.csproj",
-        "packagesPath": "C:\\Users\\Vladimir\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Mvc.Sqlite\\obj\\",
+        "projectPath": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Mvc.Sqlite\\Northwind.Mvc.Sqlite.csproj",
+        "packagesPath": "C:\\Users\\vlad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Mvc.Sqlite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Vladimir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vlad\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -298,20 +306,21 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj": {
-                "projectPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj"
+              "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj": {
+                "projectPath": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common.DataContext.Sqlite\\Northwind.Common.DataContext.Sqlite.csproj"
               },
-              "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj": {
-                "projectPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj"
+              "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj": {
+                "projectPath": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.Common\\Northwind.Common.csproj"
               },
-              "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.gRPC\\Northwind.gRPC.csproj": {
-                "projectPath": "C:\\Users\\Vladimir\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.gRPC\\Northwind.gRPC.csproj"
+              "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.gRPC\\Northwind.gRPC.csproj": {
+                "projectPath": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\PracticalApps\\Northwind.gRPC\\Northwind.gRPC.csproj"
               }
             }
           }
@@ -367,7 +376,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -379,7 +389,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

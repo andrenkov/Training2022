@@ -1,0 +1,2 @@
+obj\Release\net6.0\Protos/Shipper.cs \
+obj\Release\net6.0\Protos/ShipperGrpc.cs: Protos/shipper.proto

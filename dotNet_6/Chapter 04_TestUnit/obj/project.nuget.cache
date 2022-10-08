@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VRqRy7ZK0wXdj3hJEYjMQhZ2+xszjN98BHzg2jVJJExzZ1gOiYoSHPvsHYzMexA7jyd8PWCaefreq+WiAUmvlw==",
+  "dgSpecHash": "eeCY+I+WcBGJdOOVU+Gu9W+CrLknIVCmzRrXP5DRUTNPutMlq3rkvFVUuTxTNAho4L6vO0SbSqPq79/iyEU+TA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Vladimir\\Source\\Repos\\andrenkov\\Training2022\\dotNet_6\\Chapter4_TestUnit\\Chapter4_CalculatoLib.csproj",
+  "projectFilePath": "C:\\Users\\vlad\\source\\repos\\andrenkov\\Training2022\\dotNet_6\\Chapter 04_TestUnit\\Chapter 04_CalculatoLib.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
